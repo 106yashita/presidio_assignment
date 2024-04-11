@@ -1,0 +1,6 @@
+lesson1-binary-----https://app.codility.com/demo/results/trainingKKU88G-7Z2/
+lesson2- rotation----https://app.codility.com/demo/results/trainingXKQPRM-VNE/
+         odd number------https://app.codility.com/demo/results/training3B6AHD-RAX/
+lesson 3- frog jump -------https://app.codility.com/demo/results/trainingFRM593-9KN/
+          missing element----https://app.codility.com/demo/results/training5UGX5W-UJ2/
+          tap-----https://app.codility.com/demo/results/trainingQ4VJ8C-HH5/
