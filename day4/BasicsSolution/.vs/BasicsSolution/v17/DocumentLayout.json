@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\VC\\Desktop\\training\\day4\\BasicsSolution\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2BA205EC-D549-436C-B7CC-1F3611CC2E84}|UnderstandingBasicsApp\\UnderstandingBasicsApp.csproj|c:\\users\\vc\\desktop\\training\\day4\\basicssolution\\understandingbasicsapp\\application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA205EC-D549-436C-B7CC-1F3611CC2E84}|UnderstandingBasicsApp\\UnderstandingBasicsApp.csproj|solutionrelative:understandingbasicsapp\\application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2BA205EC-D549-436C-B7CC-1F3611CC2E84}|UnderstandingBasicsApp\\UnderstandingBasicsApp.csproj|c:\\users\\vc\\desktop\\training\\day4\\basicssolution\\understandingbasicsapp\\validate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2BA205EC-D549-436C-B7CC-1F3611CC2E84}|UnderstandingBasicsApp\\UnderstandingBasicsApp.csproj|solutionrelative:understandingbasicsapp\\validate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,12 +23,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Application.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\training\\day4\\BasicsSolution\\UnderstandingBasicsApp\\Application.cs",
+              "RelativeDocumentMoniker": "UnderstandingBasicsApp\\Application.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\training\\day4\\BasicsSolution\\UnderstandingBasicsApp\\Application.cs",
+              "RelativeToolTip": "UnderstandingBasicsApp\\Application.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAgwDIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T11:34:23.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Validate.cs",
               "DocumentMoniker": "C:\\Users\\VC\\Desktop\\training\\day4\\BasicsSolution\\UnderstandingBasicsApp\\Validate.cs",
               "RelativeDocumentMoniker": "UnderstandingBasicsApp\\Validate.cs",
               "ToolTip": "C:\\Users\\VC\\Desktop\\training\\day4\\BasicsSolution\\UnderstandingBasicsApp\\Validate.cs",
               "RelativeToolTip": "UnderstandingBasicsApp\\Validate.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAowDIAAAAQAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-12T09:48:51.35Z",
               "EditorCaption": ""
