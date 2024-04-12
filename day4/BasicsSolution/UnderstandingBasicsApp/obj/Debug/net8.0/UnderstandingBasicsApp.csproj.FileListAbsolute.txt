@@ -1,0 +1,15 @@
+C:\Users\VC\Desktop\training\day4\BasicsSolution\UnderstandingBasicsApp\bin\Debug\net8.0\UnderstandingBasicsApp.exe
+C:\Users\VC\Desktop\training\day4\BasicsSolution\UnderstandingBasicsApp\bin\Debug\net8.0\UnderstandingBasicsApp.deps.json
+C:\Users\VC\Desktop\training\day4\BasicsSolution\UnderstandingBasicsApp\bin\Debug\net8.0\UnderstandingBasicsApp.runtimeconfig.json
+C:\Users\VC\Desktop\training\day4\BasicsSolution\UnderstandingBasicsApp\bin\Debug\net8.0\UnderstandingBasicsApp.dll
+C:\Users\VC\Desktop\training\day4\BasicsSolution\UnderstandingBasicsApp\bin\Debug\net8.0\UnderstandingBasicsApp.pdb
+C:\Users\VC\Desktop\training\day4\BasicsSolution\UnderstandingBasicsApp\obj\Debug\net8.0\UnderstandingBasicsApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VC\Desktop\training\day4\BasicsSolution\UnderstandingBasicsApp\obj\Debug\net8.0\UnderstandingBasicsApp.AssemblyInfoInputs.cache
+C:\Users\VC\Desktop\training\day4\BasicsSolution\UnderstandingBasicsApp\obj\Debug\net8.0\UnderstandingBasicsApp.AssemblyInfo.cs
+C:\Users\VC\Desktop\training\day4\BasicsSolution\UnderstandingBasicsApp\obj\Debug\net8.0\UnderstandingBasicsApp.csproj.CoreCompileInputs.cache
+C:\Users\VC\Desktop\training\day4\BasicsSolution\UnderstandingBasicsApp\obj\Debug\net8.0\UnderstandingBasicsApp.sourcelink.json
+C:\Users\VC\Desktop\training\day4\BasicsSolution\UnderstandingBasicsApp\obj\Debug\net8.0\UnderstandingBasicsApp.dll
+C:\Users\VC\Desktop\training\day4\BasicsSolution\UnderstandingBasicsApp\obj\Debug\net8.0\refint\UnderstandingBasicsApp.dll
+C:\Users\VC\Desktop\training\day4\BasicsSolution\UnderstandingBasicsApp\obj\Debug\net8.0\UnderstandingBasicsApp.pdb
+C:\Users\VC\Desktop\training\day4\BasicsSolution\UnderstandingBasicsApp\obj\Debug\net8.0\UnderstandingBasicsApp.genruntimeconfig.cache
+C:\Users\VC\Desktop\training\day4\BasicsSolution\UnderstandingBasicsApp\obj\Debug\net8.0\ref\UnderstandingBasicsApp.dll

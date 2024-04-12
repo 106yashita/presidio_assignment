@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "iZPLA8/O9e3RNihAs6Em/ZvhjUpNxdXBfY53BgyFyaqOPVly/ezxafcb6lzgpSpwOMX0Cjq4Saxx+bftuZEHzw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\VC\\Desktop\\training\\day4\\BasicsSolution\\UnderstandingBasicsApp\\UnderstandingBasicsApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\VC\\.nuget\\packages\\sonaranalyzer.csharp\\9.23.2.88755\\sonaranalyzer.csharp.9.23.2.88755.nupkg.sha512"
+  ],
+  "logs": []
+}
