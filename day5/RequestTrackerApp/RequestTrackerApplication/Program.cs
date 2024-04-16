@@ -133,34 +133,34 @@ namespace RequestTrackerApplication
 
         void SearchAndUpdateEmployee()
         {
-            int id=GetIdFromConsole();
+            int id = GetIdFromConsole();
             Employee employee = SearchEmployeeById(id);
             if (employee == null)
             {
                 Console.WriteLine("No such Employee is present");
                 return;
             }
-            Employee updateEmployee=UpdateEmployee(employee);
+            Employee updateEmployee = UpdateEmployee(employee);
             PrintEmployee(employee);
         }
 
         Employee UpdateEmployee(Employee employee)
         {
             Console.WriteLine("Please enter the update Name:");
-            String name=Console.ReadLine();
+            String name = Console.ReadLine();
             employee.Name = name;
             return employee;
         }
 
         void DeleteEmployee()
         {
-            int id=GetIdFromConsole();
+            int id = GetIdFromConsole();
             Employee employee = null;
             for (int i = 0; i < employees.Length; i++)
             {
-                 if (employees[i] != null && employees[i].Id == id)
+                if (employees[i] != null && employees[i].Id == id)
                 {
-                    employees[i]=employee;
+                    employees[i] = employee;
                     break;
                 }
             }

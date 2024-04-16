@@ -1,0 +1,12 @@
+C:\Users\VC\Desktop\training\day6\GovtApplication\GovtClassLibrary\bin\Debug\net8.0\GovtClassLibrary.deps.json
+C:\Users\VC\Desktop\training\day6\GovtApplication\GovtClassLibrary\bin\Debug\net8.0\GovtClassLibrary.dll
+C:\Users\VC\Desktop\training\day6\GovtApplication\GovtClassLibrary\bin\Debug\net8.0\GovtClassLibrary.pdb
+C:\Users\VC\Desktop\training\day6\GovtApplication\GovtClassLibrary\obj\Debug\net8.0\GovtClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VC\Desktop\training\day6\GovtApplication\GovtClassLibrary\obj\Debug\net8.0\GovtClassLibrary.AssemblyInfoInputs.cache
+C:\Users\VC\Desktop\training\day6\GovtApplication\GovtClassLibrary\obj\Debug\net8.0\GovtClassLibrary.AssemblyInfo.cs
+C:\Users\VC\Desktop\training\day6\GovtApplication\GovtClassLibrary\obj\Debug\net8.0\GovtClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\VC\Desktop\training\day6\GovtApplication\GovtClassLibrary\obj\Debug\net8.0\GovtClassLibrary.sourcelink.json
+C:\Users\VC\Desktop\training\day6\GovtApplication\GovtClassLibrary\obj\Debug\net8.0\GovtClassLibrary.dll
+C:\Users\VC\Desktop\training\day6\GovtApplication\GovtClassLibrary\obj\Debug\net8.0\refint\GovtClassLibrary.dll
+C:\Users\VC\Desktop\training\day6\GovtApplication\GovtClassLibrary\obj\Debug\net8.0\GovtClassLibrary.pdb
+C:\Users\VC\Desktop\training\day6\GovtApplication\GovtClassLibrary\obj\Debug\net8.0\ref\GovtClassLibrary.dll

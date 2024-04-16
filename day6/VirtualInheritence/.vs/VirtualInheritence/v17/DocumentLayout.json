@@ -1,0 +1,151 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\VC\\Desktop\\training\\day6\\VirtualInheritence\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VC\\Desktop\\training\\day6\\VirtualInheritence\\Inheritence\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Inheritence\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VC\\Desktop\\training\\day6\\VirtualInheritence\\Inheritence\\Company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Inheritence\\Company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VC\\Desktop\\training\\day6\\VirtualInheritence\\ClassLibrary\\PermanentEmployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ClassLibrary\\PermanentEmployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VC\\Desktop\\training\\day6\\VirtualInheritence\\ClassLibrary\\ContractEmployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ClassLibrary\\ContractEmployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VC\\Desktop\\training\\day6\\VirtualInheritence\\ClassLibrary\\Employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ClassLibrary\\Employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VC\\Desktop\\training\\day6\\VirtualInheritence\\ClassLibrary\\IInternalCompanyWorking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ClassLibrary\\IInternalCompanyWorking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VC\\Desktop\\training\\day6\\VirtualInheritence\\ClassLibrary\\IClientInteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ClassLibrary\\IClientInteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VC\\Desktop\\training\\day6\\VirtualInheritence\\ClassLibrary\\Department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ClassLibrary\\Department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Company.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\training\\day6\\VirtualInheritence\\Inheritence\\Company.cs",
+              "RelativeDocumentMoniker": "Inheritence\\Company.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\training\\day6\\VirtualInheritence\\Inheritence\\Company.cs",
+              "RelativeToolTip": "Inheritence\\Company.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T07:14:59.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PermanentEmployee.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\training\\day6\\VirtualInheritence\\ClassLibrary\\PermanentEmployee.cs",
+              "RelativeDocumentMoniker": "ClassLibrary\\PermanentEmployee.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\training\\day6\\VirtualInheritence\\ClassLibrary\\PermanentEmployee.cs",
+              "RelativeToolTip": "ClassLibrary\\PermanentEmployee.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAowCUAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T06:33:19.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\training\\day6\\VirtualInheritence\\Inheritence\\Program.cs",
+              "RelativeDocumentMoniker": "Inheritence\\Program.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\training\\day6\\VirtualInheritence\\Inheritence\\Program.cs",
+              "RelativeToolTip": "Inheritence\\Program.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAEoAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T06:31:29.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IInternalCompanyWorking.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\training\\day6\\VirtualInheritence\\ClassLibrary\\IInternalCompanyWorking.cs",
+              "RelativeDocumentMoniker": "ClassLibrary\\IInternalCompanyWorking.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\training\\day6\\VirtualInheritence\\ClassLibrary\\IInternalCompanyWorking.cs",
+              "RelativeToolTip": "ClassLibrary\\IInternalCompanyWorking.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T07:12:01.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IClientInteraction.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\training\\day6\\VirtualInheritence\\ClassLibrary\\IClientInteraction.cs",
+              "RelativeDocumentMoniker": "ClassLibrary\\IClientInteraction.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\training\\day6\\VirtualInheritence\\ClassLibrary\\IClientInteraction.cs",
+              "RelativeToolTip": "ClassLibrary\\IClientInteraction.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T07:11:20.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ContractEmployee.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\training\\day6\\VirtualInheritence\\ClassLibrary\\ContractEmployee.cs",
+              "RelativeDocumentMoniker": "ClassLibrary\\ContractEmployee.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\training\\day6\\VirtualInheritence\\ClassLibrary\\ContractEmployee.cs",
+              "RelativeToolTip": "ClassLibrary\\ContractEmployee.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T06:33:38.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\training\\day6\\VirtualInheritence\\ClassLibrary\\Employee.cs",
+              "RelativeDocumentMoniker": "ClassLibrary\\Employee.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\training\\day6\\VirtualInheritence\\ClassLibrary\\Employee.cs",
+              "RelativeToolTip": "ClassLibrary\\Employee.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAE8AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T06:32:15.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\training\\day6\\VirtualInheritence\\ClassLibrary\\Department.cs",
+              "RelativeDocumentMoniker": "ClassLibrary\\Department.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\training\\day6\\VirtualInheritence\\ClassLibrary\\Department.cs",
+              "RelativeToolTip": "ClassLibrary\\Department.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T06:32:57.854Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
