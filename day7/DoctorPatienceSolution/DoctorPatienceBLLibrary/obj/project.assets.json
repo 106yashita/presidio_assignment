@@ -1,0 +1,124 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "DoctorPatientDALLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "ModelClassLibrary": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DoctorPatientDALLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DoctorPatientDALLibrary.dll": {}
+        }
+      },
+      "ModelClassLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/ModelClassLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ModelClassLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DoctorPatientDALLibrary/1.0.0": {
+      "type": "project",
+      "path": "../DoctorPatienceDALLibrary/DoctorPatientDALLibrary.csproj",
+      "msbuildProject": "../DoctorPatienceDALLibrary/DoctorPatientDALLibrary.csproj"
+    },
+    "ModelClassLibrary/1.0.0": {
+      "type": "project",
+      "path": "../ModelClassLibrary/ModelClassLibrary.csproj",
+      "msbuildProject": "../ModelClassLibrary/ModelClassLibrary.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "DoctorPatientDALLibrary >= 1.0.0",
+      "ModelClassLibrary >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\VC\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\VC\\Desktop\\training\\day7\\DoctorPatienceSolution\\DoctorPatienceBLLibrary\\DoctorPatientBLLibrary.csproj",
+      "projectName": "DoctorPatientBLLibrary",
+      "projectPath": "C:\\Users\\VC\\Desktop\\training\\day7\\DoctorPatienceSolution\\DoctorPatienceBLLibrary\\DoctorPatientBLLibrary.csproj",
+      "packagesPath": "C:\\Users\\VC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\VC\\Desktop\\training\\day7\\DoctorPatienceSolution\\DoctorPatienceBLLibrary\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\VC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\VC\\Desktop\\training\\day7\\DoctorPatienceSolution\\DoctorPatienceDALLibrary\\DoctorPatientDALLibrary.csproj": {
+              "projectPath": "C:\\Users\\VC\\Desktop\\training\\day7\\DoctorPatienceSolution\\DoctorPatienceDALLibrary\\DoctorPatientDALLibrary.csproj"
+            },
+            "C:\\Users\\VC\\Desktop\\training\\day7\\DoctorPatienceSolution\\ModelClassLibrary\\ModelClassLibrary.csproj": {
+              "projectPath": "C:\\Users\\VC\\Desktop\\training\\day7\\DoctorPatienceSolution\\ModelClassLibrary\\ModelClassLibrary.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
