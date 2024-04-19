@@ -1,7 +1,10 @@
-﻿namespace RequestTrackerBLlibrary
-{
-    public class DepartmentBL
-    {
+﻿using RequestTrackerDAL;
+using RequestTrakerModelClass;
 
+namespace RequestTrackerBLLibrary
+{
+    public class DepartmentBL 
+    {
+       
     }
 }

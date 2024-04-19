@@ -44,9 +44,9 @@ namespace RequestTrackerApp
         void UnderstandingSet()
         {
             HashSet<string> names = new HashSet<string>()
-    {
-        "Ramu","Bimu"
-    };
+        {
+            "Ramu","Bimu"
+        };
             names.Add("Somu");
             names.Add("Komu");
             names.Add("Timu");
@@ -73,6 +73,8 @@ namespace RequestTrackerApp
             if (employees.ContainsValue("Somu"))
                 Console.WriteLine("there is an emploeye with name Somu in teh collection");
         }
+
+
         static void Main(string[] args)
         {
             //Employee employee1, employee2;
@@ -88,6 +90,8 @@ namespace RequestTrackerApp
             //    Console.WriteLine($"{employee1} and {employee2} are Not same employee");
             //}
             new Program().UnderstandingDictionary();
+
+            
         }
     }
 }
