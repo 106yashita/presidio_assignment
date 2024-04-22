@@ -23,6 +23,7 @@ namespace StoreDALLibrary
             {
                 return null;
             }
+            item.VideoId = GenerateId();
             _videos.Add(GenerateId(), item);
             return item;
         }

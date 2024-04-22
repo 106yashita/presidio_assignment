@@ -12,7 +12,6 @@ namespace ModelClassLib
 
         public Video()
         {
-            VideoId = 0;
             Title = string.Empty;
             Genre = string.Empty;
             AvailabilityStatus = true;

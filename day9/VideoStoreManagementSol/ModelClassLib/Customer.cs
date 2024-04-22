@@ -15,7 +15,6 @@ namespace ModelClassLib
 
         public Customer()
         {
-            CustomerId = 0;
             CustomerName = string.Empty;
             CustomerEmail = string.Empty;
         }

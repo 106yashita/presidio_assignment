@@ -27,6 +27,7 @@ namespace StoreDALLibrary
             {
                 return null;
             }
+            item.CustomerId = GenerateId();
             _customers.Add(GenerateId(), item);
             return item;
         }

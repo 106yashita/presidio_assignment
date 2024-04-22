@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ModelClassLib\ModelClassLib.csproj" />
+    <ProjectReference Include="..\StoreBLLibrary\StoreBLLibrary.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -21,7 +21,6 @@ namespace StoreBLLibrary
         public int AddRentVideo(Rental rental)
         {
             Rental result = _rentalRepository.Add(rental);
-
             if (result != null)
             {
                 return result.Rental_id;
@@ -102,8 +101,9 @@ namespace StoreBLLibrary
            Rental rental = _rentalRepository.Get(rentalId);
            rental.Return_date = DateTime.Now;
            rental.Late_fee = rental.CalculateLateFee(rental.Return_date);
-           Video video= _videosRepository.Get(rental.Video_id);
-           video.UpdateStatus();
+           //Video video= _videosRepository.Get(rental.Video_id);
+           //video.UpdateStatus();
+           //Console.WriteLine(video.AvailabilityStatus);
            return rental;
         }
     }

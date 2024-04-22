@@ -19,9 +19,6 @@ namespace ModelClassLib
 
         public Rental()
         {
-            Rental_id = 0;
-            Customer_id = 0;
-            Video_id = 0;
             Rental_date = new DateTime();
             Due_date = new DateTime();
             Return_date = new DateTime();

@@ -1,11 +1,68 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "ModelClassLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/ModelClassLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ModelClassLib.dll": {}
+        }
+      },
+      "StoreBLLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "ModelClassLib": "1.0.0",
+          "StoreDALLibrary": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/StoreBLLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StoreBLLibrary.dll": {}
+        }
+      },
+      "StoreDALLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "ModelClassLib": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/StoreDALLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StoreDALLibrary.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ModelClassLib/1.0.0": {
+      "type": "project",
+      "path": "../ModelClassLib/ModelClassLib.csproj",
+      "msbuildProject": "../ModelClassLib/ModelClassLib.csproj"
+    },
+    "StoreBLLibrary/1.0.0": {
+      "type": "project",
+      "path": "../StoreBLLibrary/StoreBLLibrary.csproj",
+      "msbuildProject": "../StoreBLLibrary/StoreBLLibrary.csproj"
+    },
+    "StoreDALLibrary/1.0.0": {
+      "type": "project",
+      "path": "../StoreDALLibrary/StoreDALLibrary.csproj",
+      "msbuildProject": "../StoreDALLibrary/StoreDALLibrary.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "ModelClassLib >= 1.0.0",
+      "StoreBLLibrary >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\VC\\.nuget\\packages\\": {},
@@ -39,7 +96,14 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\VC\\Desktop\\training\\day9\\VideoStoreManagementSol\\ModelClassLib\\ModelClassLib.csproj": {
+              "projectPath": "C:\\Users\\VC\\Desktop\\training\\day9\\VideoStoreManagementSol\\ModelClassLib\\ModelClassLib.csproj"
+            },
+            "C:\\Users\\VC\\Desktop\\training\\day9\\VideoStoreManagementSol\\StoreBLLibrary\\StoreBLLibrary.csproj": {
+              "projectPath": "C:\\Users\\VC\\Desktop\\training\\day9\\VideoStoreManagementSol\\StoreBLLibrary\\StoreBLLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,0 +1,16 @@
+C:\Users\VC\Desktop\training\day9\VideoStoreManagementSol\StoreDALLibrary\bin\Debug\net8.0\StoreDALLibrary.deps.json
+C:\Users\VC\Desktop\training\day9\VideoStoreManagementSol\StoreDALLibrary\bin\Debug\net8.0\StoreDALLibrary.dll
+C:\Users\VC\Desktop\training\day9\VideoStoreManagementSol\StoreDALLibrary\bin\Debug\net8.0\StoreDALLibrary.pdb
+C:\Users\VC\Desktop\training\day9\VideoStoreManagementSol\StoreDALLibrary\bin\Debug\net8.0\ModelClassLib.dll
+C:\Users\VC\Desktop\training\day9\VideoStoreManagementSol\StoreDALLibrary\bin\Debug\net8.0\ModelClassLib.pdb
+C:\Users\VC\Desktop\training\day9\VideoStoreManagementSol\StoreDALLibrary\obj\Debug\net8.0\StoreDALLibrary.csproj.AssemblyReference.cache
+C:\Users\VC\Desktop\training\day9\VideoStoreManagementSol\StoreDALLibrary\obj\Debug\net8.0\StoreDALLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VC\Desktop\training\day9\VideoStoreManagementSol\StoreDALLibrary\obj\Debug\net8.0\StoreDALLibrary.AssemblyInfoInputs.cache
+C:\Users\VC\Desktop\training\day9\VideoStoreManagementSol\StoreDALLibrary\obj\Debug\net8.0\StoreDALLibrary.AssemblyInfo.cs
+C:\Users\VC\Desktop\training\day9\VideoStoreManagementSol\StoreDALLibrary\obj\Debug\net8.0\StoreDALLibrary.csproj.CoreCompileInputs.cache
+C:\Users\VC\Desktop\training\day9\VideoStoreManagementSol\StoreDALLibrary\obj\Debug\net8.0\StoreDALLibrary.sourcelink.json
+C:\Users\VC\Desktop\training\day9\VideoStoreManagementSol\StoreDALLibrary\obj\Debug\net8.0\StoreDAL.5A08F81B.Up2Date
+C:\Users\VC\Desktop\training\day9\VideoStoreManagementSol\StoreDALLibrary\obj\Debug\net8.0\StoreDALLibrary.dll
+C:\Users\VC\Desktop\training\day9\VideoStoreManagementSol\StoreDALLibrary\obj\Debug\net8.0\refint\StoreDALLibrary.dll
+C:\Users\VC\Desktop\training\day9\VideoStoreManagementSol\StoreDALLibrary\obj\Debug\net8.0\StoreDALLibrary.pdb
+C:\Users\VC\Desktop\training\day9\VideoStoreManagementSol\StoreDALLibrary\obj\Debug\net8.0\ref\StoreDALLibrary.dll

@@ -1,0 +1,12 @@
+C:\Users\VC\Desktop\training\day9\VideoStoreManagementSol\ModelClassLib\bin\Debug\net8.0\ModelClassLib.deps.json
+C:\Users\VC\Desktop\training\day9\VideoStoreManagementSol\ModelClassLib\bin\Debug\net8.0\ModelClassLib.dll
+C:\Users\VC\Desktop\training\day9\VideoStoreManagementSol\ModelClassLib\bin\Debug\net8.0\ModelClassLib.pdb
+C:\Users\VC\Desktop\training\day9\VideoStoreManagementSol\ModelClassLib\obj\Debug\net8.0\ModelClassLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VC\Desktop\training\day9\VideoStoreManagementSol\ModelClassLib\obj\Debug\net8.0\ModelClassLib.AssemblyInfoInputs.cache
+C:\Users\VC\Desktop\training\day9\VideoStoreManagementSol\ModelClassLib\obj\Debug\net8.0\ModelClassLib.AssemblyInfo.cs
+C:\Users\VC\Desktop\training\day9\VideoStoreManagementSol\ModelClassLib\obj\Debug\net8.0\ModelClassLib.csproj.CoreCompileInputs.cache
+C:\Users\VC\Desktop\training\day9\VideoStoreManagementSol\ModelClassLib\obj\Debug\net8.0\ModelClassLib.sourcelink.json
+C:\Users\VC\Desktop\training\day9\VideoStoreManagementSol\ModelClassLib\obj\Debug\net8.0\ModelClassLib.dll
+C:\Users\VC\Desktop\training\day9\VideoStoreManagementSol\ModelClassLib\obj\Debug\net8.0\refint\ModelClassLib.dll
+C:\Users\VC\Desktop\training\day9\VideoStoreManagementSol\ModelClassLib\obj\Debug\net8.0\ModelClassLib.pdb
+C:\Users\VC\Desktop\training\day9\VideoStoreManagementSol\ModelClassLib\obj\Debug\net8.0\ref\ModelClassLib.dll
