@@ -1,0 +1,15 @@
+C:\Users\VC\Desktop\training\day10\DoctorPatienceSolution\DoctorPatienceApp\bin\Debug\net8.0\DoctorPatientApp.exe
+C:\Users\VC\Desktop\training\day10\DoctorPatienceSolution\DoctorPatienceApp\bin\Debug\net8.0\DoctorPatientApp.deps.json
+C:\Users\VC\Desktop\training\day10\DoctorPatienceSolution\DoctorPatienceApp\bin\Debug\net8.0\DoctorPatientApp.runtimeconfig.json
+C:\Users\VC\Desktop\training\day10\DoctorPatienceSolution\DoctorPatienceApp\bin\Debug\net8.0\DoctorPatientApp.dll
+C:\Users\VC\Desktop\training\day10\DoctorPatienceSolution\DoctorPatienceApp\bin\Debug\net8.0\DoctorPatientApp.pdb
+C:\Users\VC\Desktop\training\day10\DoctorPatienceSolution\DoctorPatienceApp\obj\Debug\net8.0\DoctorPatientApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VC\Desktop\training\day10\DoctorPatienceSolution\DoctorPatienceApp\obj\Debug\net8.0\DoctorPatientApp.AssemblyInfoInputs.cache
+C:\Users\VC\Desktop\training\day10\DoctorPatienceSolution\DoctorPatienceApp\obj\Debug\net8.0\DoctorPatientApp.AssemblyInfo.cs
+C:\Users\VC\Desktop\training\day10\DoctorPatienceSolution\DoctorPatienceApp\obj\Debug\net8.0\DoctorPatientApp.csproj.CoreCompileInputs.cache
+C:\Users\VC\Desktop\training\day10\DoctorPatienceSolution\DoctorPatienceApp\obj\Debug\net8.0\DoctorPatientApp.sourcelink.json
+C:\Users\VC\Desktop\training\day10\DoctorPatienceSolution\DoctorPatienceApp\obj\Debug\net8.0\DoctorPatientApp.dll
+C:\Users\VC\Desktop\training\day10\DoctorPatienceSolution\DoctorPatienceApp\obj\Debug\net8.0\refint\DoctorPatientApp.dll
+C:\Users\VC\Desktop\training\day10\DoctorPatienceSolution\DoctorPatienceApp\obj\Debug\net8.0\DoctorPatientApp.pdb
+C:\Users\VC\Desktop\training\day10\DoctorPatienceSolution\DoctorPatienceApp\obj\Debug\net8.0\DoctorPatientApp.genruntimeconfig.cache
+C:\Users\VC\Desktop\training\day10\DoctorPatienceSolution\DoctorPatienceApp\obj\Debug\net8.0\ref\DoctorPatientApp.dll

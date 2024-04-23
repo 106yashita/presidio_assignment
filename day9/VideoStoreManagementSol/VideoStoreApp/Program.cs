@@ -43,22 +43,25 @@ namespace VideoStoreApp
 
         private void ReturnProcess()
         {
-            Console.WriteLine("################################");
-            Console.WriteLine("Return Process");
-            Console.WriteLine("1. Return a Video\r\n2. Go Back");
-            Console.WriteLine("Please enter your choice :");
-            int choice = int.Parse(Console.ReadLine());
-            switch (choice)
+            while (true)
             {
-                case 1:
-                    ReturnVideo();
-                    break;
-                case 2:
-                    Console.WriteLine("Going back !!!!!");
-                    return;
-                default:
-                    Console.WriteLine("wrong choice");
-                    break;
+                Console.WriteLine("################################");
+                Console.WriteLine("Return Process");
+                Console.WriteLine("1. Return a Video\r\n2. Go Back");
+                Console.WriteLine("Please enter your choice :");
+                int choice = int.Parse(Console.ReadLine());
+                switch (choice)
+                {
+                    case 1:
+                        ReturnVideo();
+                        break;
+                    case 2:
+                        Console.WriteLine("Going back !!!!!");
+                        return;
+                    default:
+                        Console.WriteLine("wrong choice");
+                        break;
+                }
             }
         }
 
@@ -76,7 +79,7 @@ namespace VideoStoreApp
             Console.WriteLine("enter the rental id that you want to return:");
             int rentalid = int.Parse(Console.ReadLine());
             Rental rental1=RentalBL.ReturnRentVideo(rentalid);
-            CustomerBL.RemoveRentedVideoFromCustomer(id, rental1.Video_id);
+            //CustomerBL.RemoveRentedVideoFromCustomer(id, rental1.Video_id);
             Video video1 = VideoBL.GetVideoById(rental1.Video_id);
             double price=rental1.Late_fee + video1.RentalPrice;
             Console.WriteLine("Your total amount to pay is: " + price);
@@ -89,7 +92,7 @@ namespace VideoStoreApp
                 Console.WriteLine("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
                 Console.WriteLine("Rental Process");
                 Console.WriteLine("1. Browse Videos\r\n2. Rent a Video\r\n" +
-                    "3.total rental fee for a customer \r\n3. Go Back");
+                    "3.total rental fee for a customer \r\n4. Go Back");
                 Console.WriteLine("Please enter your choice :");
                 int choice = int.Parse(Console.ReadLine());
                 switch (choice)
@@ -135,8 +138,8 @@ namespace VideoStoreApp
             rental.Customer_id= customer_id;
             rental.Video_id= video_id;
             int id=RentalBL.AddRentVideo(rental);
-            VideoBL.UpdateAvailabilityStatus(video_id);
-            CustomerBL.AddRentedVideoToCustomer(customer_id, video_id);
+            //VideoBL.UpdateAvailabilityStatus(video_id);
+            //CustomerBL.AddRentedVideoToCustomer(customer_id, video_id);
             Console.WriteLine("Added a Rental Video by id :" + id);
         }
 

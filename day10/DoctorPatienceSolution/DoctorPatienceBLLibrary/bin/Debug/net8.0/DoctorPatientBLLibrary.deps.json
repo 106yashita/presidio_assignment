@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "DoctorPatientBLLibrary/1.0.0": {
+        "dependencies": {
+          "DoctorPatientDALLibrary": "1.0.0",
+          "ModelClassLibrary": "1.0.0"
+        },
+        "runtime": {
+          "DoctorPatientBLLibrary.dll": {}
+        }
+      },
+      "DoctorPatientDALLibrary/1.0.0": {
+        "dependencies": {
+          "ModelClassLibrary": "1.0.0"
+        },
+        "runtime": {
+          "DoctorPatientDALLibrary.dll": {}
+        }
+      },
+      "ModelClassLibrary/1.0.0": {
+        "runtime": {
+          "ModelClassLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DoctorPatientBLLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DoctorPatientDALLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ModelClassLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

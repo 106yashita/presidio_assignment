@@ -36,8 +36,13 @@ namespace StoreBLLibrary
             {
                 if (rental.Customer_id == customerId)
                 {
-                    Video video = _videosRepository.Get(rental.Video_id);
-                    totalRentalFees += video.RentalPrice;
+                    int Video_id=rental.Video_id;
+                    Console.WriteLine(Video_id);
+                    //Video video = _videosRepository.Get(Video_id);
+                    //Console.WriteLine(video.Title);
+                    //Console.WriteLine(video.Genre);
+                    //Console.WriteLine(video.RentalPrice);
+                    //totalRentalFees += video.RentalPrice;
                     totalRentalFees += rental.Late_fee;
                 }
             }
@@ -101,10 +106,11 @@ namespace StoreBLLibrary
            Rental rental = _rentalRepository.Get(rentalId);
            rental.Return_date = DateTime.Now;
            rental.Late_fee = rental.CalculateLateFee(rental.Return_date);
+            Rental rental1 = _rentalRepository.Delete(rentalId);
            //Video video= _videosRepository.Get(rental.Video_id);
            //video.UpdateStatus();
            //Console.WriteLine(video.AvailabilityStatus);
-           return rental;
+           return rental1;
         }
     }
 }

@@ -3,44 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\VC\\Desktop\\training\\day9\\VideoStoreManagementSol\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7F2780FA-5D0C-4158-B02D-0D06AC0426F9}|VideoStoreApp\\VideoStoreApp.csproj|c:\\users\\vc\\desktop\\training\\day9\\videostoremanagementsol\\videostoreapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F2780FA-5D0C-4158-B02D-0D06AC0426F9}|VideoStoreApp\\VideoStoreApp.csproj|solutionrelative:videostoreapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6000DE75-EE6F-47F9-A06A-2F8D0A020B5A}|StoreBLLibrary\\StoreBLLibrary.csproj|c:\\users\\vc\\desktop\\training\\day9\\videostoremanagementsol\\storebllibrary\\rentalbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6000DE75-EE6F-47F9-A06A-2F8D0A020B5A}|StoreBLLibrary\\StoreBLLibrary.csproj|solutionrelative:storebllibrary\\rentalbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6000DE75-EE6F-47F9-A06A-2F8D0A020B5A}|StoreBLLibrary\\StoreBLLibrary.csproj|c:\\users\\vc\\desktop\\training\\day9\\videostoremanagementsol\\storebllibrary\\videobl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6000DE75-EE6F-47F9-A06A-2F8D0A020B5A}|StoreBLLibrary\\StoreBLLibrary.csproj|solutionrelative:storebllibrary\\videobl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6000DE75-EE6F-47F9-A06A-2F8D0A020B5A}|StoreBLLibrary\\StoreBLLibrary.csproj|c:\\users\\vc\\desktop\\training\\day9\\videostoremanagementsol\\storebllibrary\\customerbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6000DE75-EE6F-47F9-A06A-2F8D0A020B5A}|StoreBLLibrary\\StoreBLLibrary.csproj|solutionrelative:storebllibrary\\customerbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2265E58-4320-46F1-93E0-D15DF2494985}|ModelClassLib\\ModelClassLib.csproj|c:\\users\\vc\\desktop\\training\\day9\\videostoremanagementsol\\modelclasslib\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2265E58-4320-46F1-93E0-D15DF2494985}|ModelClassLib\\ModelClassLib.csproj|solutionrelative:modelclasslib\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ECAF7300-F2F5-4D60-A927-6DDED864578D}|StoreDALLibrary\\StoreDALLibrary.csproj|c:\\users\\vc\\desktop\\training\\day9\\videostoremanagementsol\\storedallibrary\\rentalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ECAF7300-F2F5-4D60-A927-6DDED864578D}|StoreDALLibrary\\StoreDALLibrary.csproj|solutionrelative:storedallibrary\\rentalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2265E58-4320-46F1-93E0-D15DF2494985}|ModelClassLib\\ModelClassLib.csproj|c:\\users\\vc\\desktop\\training\\day9\\videostoremanagementsol\\modelclasslib\\rental.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2265E58-4320-46F1-93E0-D15DF2494985}|ModelClassLib\\ModelClassLib.csproj|solutionrelative:modelclasslib\\rental.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2265E58-4320-46F1-93E0-D15DF2494985}|ModelClassLib\\ModelClassLib.csproj|c:\\users\\vc\\desktop\\training\\day9\\videostoremanagementsol\\modelclasslib\\video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2265E58-4320-46F1-93E0-D15DF2494985}|ModelClassLib\\ModelClassLib.csproj|solutionrelative:modelclasslib\\video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2265E58-4320-46F1-93E0-D15DF2494985}|ModelClassLib\\ModelClassLib.csproj|c:\\users\\vc\\desktop\\training\\day9\\videostoremanagementsol\\modelclasslib\\rental.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2265E58-4320-46F1-93E0-D15DF2494985}|ModelClassLib\\ModelClassLib.csproj|solutionrelative:modelclasslib\\rental.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6000DE75-EE6F-47F9-A06A-2F8D0A020B5A}|StoreBLLibrary\\StoreBLLibrary.csproj|c:\\users\\vc\\desktop\\training\\day9\\videostoremanagementsol\\storebllibrary\\rentalbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6000DE75-EE6F-47F9-A06A-2F8D0A020B5A}|StoreBLLibrary\\StoreBLLibrary.csproj|solutionrelative:storebllibrary\\rentalbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECAF7300-F2F5-4D60-A927-6DDED864578D}|StoreDALLibrary\\StoreDALLibrary.csproj|c:\\users\\vc\\desktop\\training\\day9\\videostoremanagementsol\\storedallibrary\\rentalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECAF7300-F2F5-4D60-A927-6DDED864578D}|StoreDALLibrary\\StoreDALLibrary.csproj|solutionrelative:storedallibrary\\rentalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6000DE75-EE6F-47F9-A06A-2F8D0A020B5A}|StoreBLLibrary\\StoreBLLibrary.csproj|c:\\users\\vc\\desktop\\training\\day9\\videostoremanagementsol\\storebllibrary\\irentalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6000DE75-EE6F-47F9-A06A-2F8D0A020B5A}|StoreBLLibrary\\StoreBLLibrary.csproj|solutionrelative:storebllibrary\\irentalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F2780FA-5D0C-4158-B02D-0D06AC0426F9}|VideoStoreApp\\VideoStoreApp.csproj|c:\\users\\vc\\desktop\\training\\day9\\videostoremanagementsol\\videostoreapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F2780FA-5D0C-4158-B02D-0D06AC0426F9}|VideoStoreApp\\VideoStoreApp.csproj|solutionrelative:videostoreapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ECAF7300-F2F5-4D60-A927-6DDED864578D}|StoreDALLibrary\\StoreDALLibrary.csproj|c:\\users\\vc\\desktop\\training\\day9\\videostoremanagementsol\\storedallibrary\\videorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ECAF7300-F2F5-4D60-A927-6DDED864578D}|StoreDALLibrary\\StoreDALLibrary.csproj|solutionrelative:storedallibrary\\videorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6000DE75-EE6F-47F9-A06A-2F8D0A020B5A}|StoreBLLibrary\\StoreBLLibrary.csproj|c:\\users\\vc\\desktop\\training\\day9\\videostoremanagementsol\\storebllibrary\\irentalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6000DE75-EE6F-47F9-A06A-2F8D0A020B5A}|StoreBLLibrary\\StoreBLLibrary.csproj|solutionrelative:storebllibrary\\irentalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6000DE75-EE6F-47F9-A06A-2F8D0A020B5A}|StoreBLLibrary\\StoreBLLibrary.csproj|c:\\users\\vc\\desktop\\training\\day9\\videostoremanagementsol\\storebllibrary\\customerbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6000DE75-EE6F-47F9-A06A-2F8D0A020B5A}|StoreBLLibrary\\StoreBLLibrary.csproj|solutionrelative:storebllibrary\\customerbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6000DE75-EE6F-47F9-A06A-2F8D0A020B5A}|StoreBLLibrary\\StoreBLLibrary.csproj|c:\\users\\vc\\desktop\\training\\day9\\videostoremanagementsol\\storebllibrary\\videobl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6000DE75-EE6F-47F9-A06A-2F8D0A020B5A}|StoreBLLibrary\\StoreBLLibrary.csproj|solutionrelative:storebllibrary\\videobl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2265E58-4320-46F1-93E0-D15DF2494985}|ModelClassLib\\ModelClassLib.csproj|c:\\users\\vc\\desktop\\training\\day9\\videostoremanagementsol\\modelclasslib\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2265E58-4320-46F1-93E0-D15DF2494985}|ModelClassLib\\ModelClassLib.csproj|solutionrelative:modelclasslib\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,89 +50,87 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "RentalRepository.cs",
               "DocumentMoniker": "C:\\Users\\VC\\Desktop\\training\\day9\\VideoStoreManagementSol\\StoreDALLibrary\\RentalRepository.cs",
               "RelativeDocumentMoniker": "StoreDALLibrary\\RentalRepository.cs",
               "ToolTip": "C:\\Users\\VC\\Desktop\\training\\day9\\VideoStoreManagementSol\\StoreDALLibrary\\RentalRepository.cs",
               "RelativeToolTip": "StoreDALLibrary\\RentalRepository.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB0AAAAqAAAA",
+              "ViewState": "AQIAADMAAAAAAAAAAAAmwB0AAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-22T09:46:27.617Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\VC\\Desktop\\training\\day9\\VideoStoreManagementSol\\VideoStoreApp\\Program.cs",
               "RelativeDocumentMoniker": "VideoStoreApp\\Program.cs",
               "ToolTip": "C:\\Users\\VC\\Desktop\\training\\day9\\VideoStoreManagementSol\\VideoStoreApp\\Program.cs",
               "RelativeToolTip": "VideoStoreApp\\Program.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAwwE0AAAAoAAAA",
+              "ViewState": "AQIAACsAAAAAAAAAAAAgwJMAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-22T07:01:47.603Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "VideoBL.cs",
               "DocumentMoniker": "C:\\Users\\VC\\Desktop\\training\\day9\\VideoStoreManagementSol\\StoreBLLibrary\\VideoBL.cs",
               "RelativeDocumentMoniker": "StoreBLLibrary\\VideoBL.cs",
               "ToolTip": "C:\\Users\\VC\\Desktop\\training\\day9\\VideoStoreManagementSol\\StoreBLLibrary\\VideoBL.cs",
               "RelativeToolTip": "StoreBLLibrary\\VideoBL.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFAAAAAlAAAA",
+              "ViewState": "AQIAADkAAAAAAAAAAAAmwBoAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T05:13:43.989Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T05:13:43.989Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "RentalBL.cs",
               "DocumentMoniker": "C:\\Users\\VC\\Desktop\\training\\day9\\VideoStoreManagementSol\\StoreBLLibrary\\RentalBL.cs",
               "RelativeDocumentMoniker": "StoreBLLibrary\\RentalBL.cs",
               "ToolTip": "C:\\Users\\VC\\Desktop\\training\\day9\\VideoStoreManagementSol\\StoreBLLibrary\\RentalBL.cs",
               "RelativeToolTip": "StoreBLLibrary\\RentalBL.cs",
-              "ViewState": "AQIAAF8AAAAAAAAAAAAAwGYAAABJAAAA",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAmwGsAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-22T06:22:16.502Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "CustomerBL.cs",
               "DocumentMoniker": "C:\\Users\\VC\\Desktop\\training\\day9\\VideoStoreManagementSol\\StoreBLLibrary\\CustomerBL.cs",
               "RelativeDocumentMoniker": "StoreBLLibrary\\CustomerBL.cs",
               "ToolTip": "C:\\Users\\VC\\Desktop\\training\\day9\\VideoStoreManagementSol\\StoreBLLibrary\\CustomerBL.cs",
               "RelativeToolTip": "StoreBLLibrary\\CustomerBL.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAApAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowBcAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T06:01:35.303Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T06:01:35.303Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Video.cs",
               "DocumentMoniker": "C:\\Users\\VC\\Desktop\\training\\day9\\VideoStoreManagementSol\\ModelClassLib\\Video.cs",
               "RelativeDocumentMoniker": "ModelClassLib\\Video.cs",
               "ToolTip": "C:\\Users\\VC\\Desktop\\training\\day9\\VideoStoreManagementSol\\ModelClassLib\\Video.cs",
               "RelativeToolTip": "ModelClassLib\\Video.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAA9wA0AAAAJAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAgwA0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-22T04:18:12.456Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "Customer.cs",
               "DocumentMoniker": "C:\\Users\\VC\\Desktop\\training\\day9\\VideoStoreManagementSol\\ModelClassLib\\Customer.cs",
               "RelativeDocumentMoniker": "ModelClassLib\\Customer.cs",
@@ -140,38 +138,23 @@
               "RelativeToolTip": "ModelClassLib\\Customer.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAA9wBAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T04:25:38.471Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T04:25:38.471Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Rental.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\training\\day9\\VideoStoreManagementSol\\ModelClassLib\\Rental.cs",
-              "RelativeDocumentMoniker": "ModelClassLib\\Rental.cs",
-              "ToolTip": "C:\\Users\\VC\\Desktop\\training\\day9\\VideoStoreManagementSol\\ModelClassLib\\Rental.cs",
-              "RelativeToolTip": "ModelClassLib\\Rental.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAA5wCIAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T04:32:04.222Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "VideoRepository.cs",
               "DocumentMoniker": "C:\\Users\\VC\\Desktop\\training\\day9\\VideoStoreManagementSol\\StoreDALLibrary\\VideoRepository.cs",
               "RelativeDocumentMoniker": "StoreDALLibrary\\VideoRepository.cs",
               "ToolTip": "C:\\Users\\VC\\Desktop\\training\\day9\\VideoStoreManagementSol\\StoreDALLibrary\\VideoRepository.cs",
               "RelativeToolTip": "StoreDALLibrary\\VideoRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAoAAAA",
+              "ViewState": "AQIAABcAAAAAAAAAAAAwwCkAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T06:47:40.216Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T06:47:40.216Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "IRentalService.cs",
               "DocumentMoniker": "C:\\Users\\VC\\Desktop\\training\\day9\\VideoStoreManagementSol\\StoreBLLibrary\\IRentalService.cs",
               "RelativeDocumentMoniker": "StoreBLLibrary\\IRentalService.cs",
@@ -179,7 +162,21 @@
               "RelativeToolTip": "StoreBLLibrary\\IRentalService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T06:25:26.917Z"
+              "WhenOpened": "2024-04-22T06:25:26.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Rental.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\training\\day9\\VideoStoreManagementSol\\ModelClassLib\\Rental.cs",
+              "RelativeDocumentMoniker": "ModelClassLib\\Rental.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\training\\day9\\VideoStoreManagementSol\\ModelClassLib\\Rental.cs",
+              "RelativeToolTip": "ModelClassLib\\Rental.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAwDEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T04:32:04.222Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -1,0 +1,169 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\VC\\Desktop\\training\\day10\\RequestTrackerSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E9106AE1-04FF-40FA-B488-F92874968384}|RequestBLTest\\RequestBLTest.csproj|c:\\users\\vc\\desktop\\training\\day10\\requesttrackersolution\\requestbltest\\deprtmentbltest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9106AE1-04FF-40FA-B488-F92874968384}|RequestBLTest\\RequestBLTest.csproj|solutionrelative:requestbltest\\deprtmentbltest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E0277BC-7765-461E-9C9C-AE9F740F531D}|RequestDALLibrary\\RequestDALLibrary.csproj|c:\\users\\vc\\desktop\\training\\day10\\requesttrackersolution\\requestdallibrary\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E0277BC-7765-461E-9C9C-AE9F740F531D}|RequestDALLibrary\\RequestDALLibrary.csproj|solutionrelative:requestdallibrary\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92097946-99AD-41FD-920A-BDC6F0723C82}|RequestProjectTest\\RequestProjectTest.csproj|c:\\users\\vc\\desktop\\training\\day10\\requesttrackersolution\\requestprojecttest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92097946-99AD-41FD-920A-BDC6F0723C82}|RequestProjectTest\\RequestProjectTest.csproj|solutionrelative:requestprojecttest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41BA27B5-0462-49EB-B275-EFA300339D05}|RequestBLLibrary\\RequestBLLibrary.csproj|c:\\users\\vc\\desktop\\training\\day10\\requesttrackersolution\\requestbllibrary\\departmentbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41BA27B5-0462-49EB-B275-EFA300339D05}|RequestBLLibrary\\RequestBLLibrary.csproj|solutionrelative:requestbllibrary\\departmentbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E0277BC-7765-461E-9C9C-AE9F740F531D}|RequestDALLibrary\\RequestDALLibrary.csproj|c:\\users\\vc\\desktop\\training\\day10\\requesttrackersolution\\requestdallibrary\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E0277BC-7765-461E-9C9C-AE9F740F531D}|RequestDALLibrary\\RequestDALLibrary.csproj|solutionrelative:requestdallibrary\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41BA27B5-0462-49EB-B275-EFA300339D05}|RequestBLLibrary\\RequestBLLibrary.csproj|c:\\users\\vc\\desktop\\training\\day10\\requesttrackersolution\\requestbllibrary\\duplicateemployeenameexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41BA27B5-0462-49EB-B275-EFA300339D05}|RequestBLLibrary\\RequestBLLibrary.csproj|solutionrelative:requestbllibrary\\duplicateemployeenameexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41BA27B5-0462-49EB-B275-EFA300339D05}|RequestBLLibrary\\RequestBLLibrary.csproj|c:\\users\\vc\\desktop\\training\\day10\\requesttrackersolution\\requestbllibrary\\duplicatedepartmentnameexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41BA27B5-0462-49EB-B275-EFA300339D05}|RequestBLLibrary\\RequestBLLibrary.csproj|solutionrelative:requestbllibrary\\duplicatedepartmentnameexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41BA27B5-0462-49EB-B275-EFA300339D05}|RequestBLLibrary\\RequestBLLibrary.csproj|c:\\users\\vc\\desktop\\training\\day10\\requesttrackersolution\\requestbllibrary\\departmentnotexistexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41BA27B5-0462-49EB-B275-EFA300339D05}|RequestBLLibrary\\RequestBLLibrary.csproj|solutionrelative:requestbllibrary\\departmentnotexistexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41BA27B5-0462-49EB-B275-EFA300339D05}|RequestBLLibrary\\RequestBLLibrary.csproj|c:\\users\\vc\\desktop\\training\\day10\\requesttrackersolution\\requestbllibrary\\idepartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41BA27B5-0462-49EB-B275-EFA300339D05}|RequestBLLibrary\\RequestBLLibrary.csproj|solutionrelative:requestbllibrary\\idepartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\training\\day10\\RequestTrackerSolution\\RequestDALLibrary\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "RequestDALLibrary\\EmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\training\\day10\\RequestTrackerSolution\\RequestDALLibrary\\EmployeeRepository.cs",
+              "RelativeToolTip": "RequestDALLibrary\\EmployeeRepository.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T09:25:43.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DuplicateEmployeeNameException.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\training\\day10\\RequestTrackerSolution\\RequestBLLibrary\\DuplicateEmployeeNameException.cs",
+              "RelativeDocumentMoniker": "RequestBLLibrary\\DuplicateEmployeeNameException.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\training\\day10\\RequestTrackerSolution\\RequestBLLibrary\\DuplicateEmployeeNameException.cs",
+              "RelativeToolTip": "RequestBLLibrary\\DuplicateEmployeeNameException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T06:35:57.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DuplicateDepartmentNameException.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\training\\day10\\RequestTrackerSolution\\RequestBLLibrary\\DuplicateDepartmentNameException.cs",
+              "RelativeDocumentMoniker": "RequestBLLibrary\\DuplicateDepartmentNameException.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\training\\day10\\RequestTrackerSolution\\RequestBLLibrary\\DuplicateDepartmentNameException.cs",
+              "RelativeToolTip": "RequestBLLibrary\\DuplicateDepartmentNameException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T06:35:50.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DepartmentNotExistException.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\training\\day10\\RequestTrackerSolution\\RequestBLLibrary\\DepartmentNotExistException.cs",
+              "RelativeDocumentMoniker": "RequestBLLibrary\\DepartmentNotExistException.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\training\\day10\\RequestTrackerSolution\\RequestBLLibrary\\DepartmentNotExistException.cs",
+              "RelativeToolTip": "RequestBLLibrary\\DepartmentNotExistException.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAqwAoAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T06:35:45.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IDepartmentService.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\training\\day10\\RequestTrackerSolution\\RequestBLLibrary\\IDepartmentService.cs",
+              "RelativeDocumentMoniker": "RequestBLLibrary\\IDepartmentService.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\training\\day10\\RequestTrackerSolution\\RequestBLLibrary\\IDepartmentService.cs",
+              "RelativeToolTip": "RequestBLLibrary\\IDepartmentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T06:25:59.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DeprtmentBLTest.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\training\\day10\\RequestTrackerSolution\\RequestBLTest\\DeprtmentBLTest.cs",
+              "RelativeDocumentMoniker": "RequestBLTest\\DeprtmentBLTest.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\training\\day10\\RequestTrackerSolution\\RequestBLTest\\DeprtmentBLTest.cs",
+              "RelativeToolTip": "RequestBLTest\\DeprtmentBLTest.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAADwvyEAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T06:15:23.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DepartmentBL.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\training\\day10\\RequestTrackerSolution\\RequestBLLibrary\\DepartmentBL.cs",
+              "RelativeDocumentMoniker": "RequestBLLibrary\\DepartmentBL.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\training\\day10\\RequestTrackerSolution\\RequestBLLibrary\\DepartmentBL.cs",
+              "RelativeToolTip": "RequestBLLibrary\\DepartmentBL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T06:12:21.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DepartmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\training\\day10\\RequestTrackerSolution\\RequestDALLibrary\\DepartmentRepository.cs",
+              "RelativeDocumentMoniker": "RequestDALLibrary\\DepartmentRepository.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\training\\day10\\RequestTrackerSolution\\RequestDALLibrary\\DepartmentRepository.cs",
+              "RelativeToolTip": "RequestDALLibrary\\DepartmentRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T05:19:17.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\training\\day10\\RequestTrackerSolution\\RequestProjectTest\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "RequestProjectTest\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\training\\day10\\RequestTrackerSolution\\RequestProjectTest\\UnitTest1.cs",
+              "RelativeToolTip": "RequestProjectTest\\UnitTest1.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwBgAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T04:49:32.111Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
