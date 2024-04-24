@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\VC\\Desktop\\training\\day10\\DoctorPatienceSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{067BAAE2-45DA-4D09-9553-EABC9244655E}|DoctorPatienceBLTest\\DoctorPatienceBLTest.csproj|c:\\users\\vc\\desktop\\training\\day10\\doctorpatiencesolution\\doctorpatiencebltest\\patientbltest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{067BAAE2-45DA-4D09-9553-EABC9244655E}|DoctorPatienceBLTest\\DoctorPatienceBLTest.csproj|solutionrelative:doctorpatiencebltest\\patientbltest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3EAA12FA-CFDB-4294-BDAF-1F9AF62AB307}|DoctorPatienceBLLibrary\\DoctorPatientBLLibrary.csproj|c:\\users\\vc\\desktop\\training\\day10\\doctorpatiencesolution\\doctorpatiencebllibrary\\patientbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3EAA12FA-CFDB-4294-BDAF-1F9AF62AB307}|DoctorPatienceBLLibrary\\DoctorPatientBLLibrary.csproj|solutionrelative:doctorpatiencebllibrary\\patientbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD8C85B0-4BCD-454D-8C55-369C5E625D37}|DoctorPatienceDALLibrary\\DoctorPatientDALLibrary.csproj|c:\\users\\vc\\desktop\\training\\day10\\doctorpatiencesolution\\doctorpatiencedallibrary\\patientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD8C85B0-4BCD-454D-8C55-369C5E625D37}|DoctorPatienceDALLibrary\\DoctorPatientDALLibrary.csproj|solutionrelative:doctorpatiencedallibrary\\patientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{067BAAE2-45DA-4D09-9553-EABC9244655E}|DoctorPatienceBLTest\\DoctorPatienceBLTest.csproj|c:\\users\\vc\\desktop\\training\\day10\\doctorpatiencesolution\\doctorpatiencebltest\\patientbltest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{067BAAE2-45DA-4D09-9553-EABC9244655E}|DoctorPatienceBLTest\\DoctorPatienceBLTest.csproj|solutionrelative:doctorpatiencebltest\\patientbltest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{067BAAE2-45DA-4D09-9553-EABC9244655E}|DoctorPatienceBLTest\\DoctorPatienceBLTest.csproj|c:\\users\\vc\\desktop\\training\\day10\\doctorpatiencesolution\\doctorpatiencebltest\\doctorbltest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,6 +21,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{DE72429A-BBED-48AB-A16F-FEF6D8A524CD}|ModelClassLibrary\\ModelClassLibrary.csproj|c:\\users\\vc\\desktop\\training\\day10\\doctorpatiencesolution\\modelclasslibrary\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE72429A-BBED-48AB-A16F-FEF6D8A524CD}|ModelClassLibrary\\ModelClassLibrary.csproj|solutionrelative:modelclasslibrary\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD8C85B0-4BCD-454D-8C55-369C5E625D37}|DoctorPatienceDALLibrary\\DoctorPatientDALLibrary.csproj|c:\\users\\vc\\desktop\\training\\day10\\doctorpatiencesolution\\doctorpatiencedallibrary\\patientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD8C85B0-4BCD-454D-8C55-369C5E625D37}|DoctorPatienceDALLibrary\\DoctorPatientDALLibrary.csproj|solutionrelative:doctorpatiencedallibrary\\patientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BD8C85B0-4BCD-454D-8C55-369C5E625D37}|DoctorPatienceDALLibrary\\DoctorPatientDALLibrary.csproj|c:\\users\\vc\\desktop\\training\\day10\\doctorpatiencesolution\\doctorpatiencedallibrary\\doctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,11 +42,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "DuplicatePatientNameException.cs",
               "DocumentMoniker": "C:\\Users\\VC\\Desktop\\training\\day10\\DoctorPatienceSolution\\DoctorPatienceBLLibrary\\DuplicatePatientNameException.cs",
               "RelativeDocumentMoniker": "DoctorPatienceBLLibrary\\DuplicatePatientNameException.cs",
@@ -54,25 +54,23 @@
               "RelativeToolTip": "DoctorPatienceBLLibrary\\DuplicatePatientNameException.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T11:47:56.682Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T11:47:56.682Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Patient.cs",
               "DocumentMoniker": "C:\\Users\\VC\\Desktop\\training\\day10\\DoctorPatienceSolution\\ModelClassLibrary\\Patient.cs",
               "RelativeDocumentMoniker": "ModelClassLibrary\\Patient.cs",
               "ToolTip": "C:\\Users\\VC\\Desktop\\training\\day10\\DoctorPatienceSolution\\ModelClassLibrary\\Patient.cs",
               "RelativeToolTip": "ModelClassLibrary\\Patient.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAwCoAAAAUAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAwDAAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T11:14:01.157Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T11:14:01.157Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "PatientRepository.cs",
               "DocumentMoniker": "C:\\Users\\VC\\Desktop\\training\\day10\\DoctorPatienceSolution\\DoctorPatienceDALLibrary\\PatientRepository.cs",
               "RelativeDocumentMoniker": "DoctorPatienceDALLibrary\\PatientRepository.cs",
@@ -80,8 +78,7 @@
               "RelativeToolTip": "DoctorPatienceDALLibrary\\PatientRepository.cs",
               "ViewState": "AQIAABIAAAAAAAAAAAAowCIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T11:13:50.287Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T11:13:50.287Z"
             },
             {
               "$type": "Document",
@@ -93,8 +90,7 @@
               "RelativeToolTip": "DoctorPatienceDALLibrary\\DoctorRepository.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAAgwBgAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T11:13:33.279Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T11:13:33.279Z"
             },
             {
               "$type": "Document",
@@ -106,44 +102,41 @@
               "RelativeToolTip": "ModelClassLibrary\\Doctor.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T10:39:52.373Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T10:39:52.373Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PatientBLTest.cs",
               "DocumentMoniker": "C:\\Users\\VC\\Desktop\\training\\day10\\DoctorPatienceSolution\\DoctorPatienceBLTest\\PatientBLTest.cs",
               "RelativeDocumentMoniker": "DoctorPatienceBLTest\\PatientBLTest.cs",
               "ToolTip": "C:\\Users\\VC\\Desktop\\training\\day10\\DoctorPatienceSolution\\DoctorPatienceBLTest\\PatientBLTest.cs",
               "RelativeToolTip": "DoctorPatienceBLTest\\PatientBLTest.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAgwCgAAAAOAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwCEAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T10:28:47.362Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T10:28:47.362Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "DoctorBLTest.cs",
               "DocumentMoniker": "C:\\Users\\VC\\Desktop\\training\\day10\\DoctorPatienceSolution\\DoctorPatienceBLTest\\DoctorBLTest.cs",
               "RelativeDocumentMoniker": "DoctorPatienceBLTest\\DoctorBLTest.cs",
               "ToolTip": "C:\\Users\\VC\\Desktop\\training\\day10\\DoctorPatienceSolution\\DoctorPatienceBLTest\\DoctorBLTest.cs",
               "RelativeToolTip": "DoctorPatienceBLTest\\DoctorBLTest.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwIkAAAA4AAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwCAAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T08:49:37.042Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T08:49:37.042Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "PatientBL.cs",
               "DocumentMoniker": "C:\\Users\\VC\\Desktop\\training\\day10\\DoctorPatienceSolution\\DoctorPatienceBLLibrary\\PatientBL.cs",
               "RelativeDocumentMoniker": "DoctorPatienceBLLibrary\\PatientBL.cs",
               "ToolTip": "C:\\Users\\VC\\Desktop\\training\\day10\\DoctorPatienceSolution\\DoctorPatienceBLLibrary\\PatientBL.cs",
               "RelativeToolTip": "DoctorPatienceBLLibrary\\PatientBL.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAA3wBgAAAA4AAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAuwBgAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-23T10:19:18.643Z",
               "EditorCaption": ""
