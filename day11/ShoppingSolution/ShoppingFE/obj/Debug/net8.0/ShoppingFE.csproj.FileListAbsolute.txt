@@ -13,3 +13,11 @@ C:\Users\VC\Desktop\training\day11\ShoppingSolution\ShoppingFE\obj\Debug\net8.0\
 C:\Users\VC\Desktop\training\day11\ShoppingSolution\ShoppingFE\obj\Debug\net8.0\ShoppingFE.pdb
 C:\Users\VC\Desktop\training\day11\ShoppingSolution\ShoppingFE\obj\Debug\net8.0\ShoppingFE.genruntimeconfig.cache
 C:\Users\VC\Desktop\training\day11\ShoppingSolution\ShoppingFE\obj\Debug\net8.0\ref\ShoppingFE.dll
+C:\Users\VC\Desktop\training\day11\ShoppingSolution\ShoppingFE\bin\Debug\net8.0\ShoppingBLLibrary.dll
+C:\Users\VC\Desktop\training\day11\ShoppingSolution\ShoppingFE\bin\Debug\net8.0\ShoppingDALLibrary.dll
+C:\Users\VC\Desktop\training\day11\ShoppingSolution\ShoppingFE\bin\Debug\net8.0\ShoppingModelLibrary.dll
+C:\Users\VC\Desktop\training\day11\ShoppingSolution\ShoppingFE\bin\Debug\net8.0\ShoppingBLLibrary.pdb
+C:\Users\VC\Desktop\training\day11\ShoppingSolution\ShoppingFE\bin\Debug\net8.0\ShoppingDALLibrary.pdb
+C:\Users\VC\Desktop\training\day11\ShoppingSolution\ShoppingFE\bin\Debug\net8.0\ShoppingModelLibrary.pdb
+C:\Users\VC\Desktop\training\day11\ShoppingSolution\ShoppingFE\obj\Debug\net8.0\ShoppingFE.csproj.AssemblyReference.cache
+C:\Users\VC\Desktop\training\day11\ShoppingSolution\ShoppingFE\obj\Debug\net8.0\ShoppingFE.csproj.Up2Date

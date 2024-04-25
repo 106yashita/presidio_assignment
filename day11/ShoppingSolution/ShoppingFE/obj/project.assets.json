@@ -1,11 +1,69 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "ShoppingBLLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "ShoppingDALLibrary": "1.0.0",
+          "ShoppingModelLibrary": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ShoppingBLLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ShoppingBLLibrary.dll": {}
+        }
+      },
+      "ShoppingDALLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "ShoppingModelLibrary": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ShoppingDALLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ShoppingDALLibrary.dll": {}
+        }
+      },
+      "ShoppingModelLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/ShoppingModelLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ShoppingModelLibrary.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ShoppingBLLibrary/1.0.0": {
+      "type": "project",
+      "path": "../ShoppingBLLibrary/ShoppingBLLibrary.csproj",
+      "msbuildProject": "../ShoppingBLLibrary/ShoppingBLLibrary.csproj"
+    },
+    "ShoppingDALLibrary/1.0.0": {
+      "type": "project",
+      "path": "../ShoppingDALLibrary/ShoppingDALLibrary.csproj",
+      "msbuildProject": "../ShoppingDALLibrary/ShoppingDALLibrary.csproj"
+    },
+    "ShoppingModelLibrary/1.0.0": {
+      "type": "project",
+      "path": "../ShoppingModelLibrary/ShoppingModelLibrary.csproj",
+      "msbuildProject": "../ShoppingModelLibrary/ShoppingModelLibrary.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "ShoppingBLLibrary >= 1.0.0",
+      "ShoppingDALLibrary >= 1.0.0",
+      "ShoppingModelLibrary >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\VC\\.nuget\\packages\\": {},
@@ -39,7 +97,17 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\VC\\Desktop\\training\\day11\\ShoppingSolution\\ShoppingBLLibrary\\ShoppingBLLibrary.csproj": {
+              "projectPath": "C:\\Users\\VC\\Desktop\\training\\day11\\ShoppingSolution\\ShoppingBLLibrary\\ShoppingBLLibrary.csproj"
+            },
+            "C:\\Users\\VC\\Desktop\\training\\day11\\ShoppingSolution\\ShoppingDALLibrary\\ShoppingDALLibrary.csproj": {
+              "projectPath": "C:\\Users\\VC\\Desktop\\training\\day11\\ShoppingSolution\\ShoppingDALLibrary\\ShoppingDALLibrary.csproj"
+            },
+            "C:\\Users\\VC\\Desktop\\training\\day11\\ShoppingSolution\\ShoppingModelLibrary\\ShoppingModelLibrary.csproj": {
+              "projectPath": "C:\\Users\\VC\\Desktop\\training\\day11\\ShoppingSolution\\ShoppingModelLibrary\\ShoppingModelLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

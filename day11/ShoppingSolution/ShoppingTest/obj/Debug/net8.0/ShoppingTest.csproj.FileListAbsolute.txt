@@ -103,3 +103,5 @@ C:\Users\VC\Desktop\training\day11\ShoppingSolution\ShoppingTest\obj\Debug\net8.
 C:\Users\VC\Desktop\training\day11\ShoppingSolution\ShoppingTest\obj\Debug\net8.0\ShoppingTest.pdb
 C:\Users\VC\Desktop\training\day11\ShoppingSolution\ShoppingTest\obj\Debug\net8.0\ShoppingTest.genruntimeconfig.cache
 C:\Users\VC\Desktop\training\day11\ShoppingSolution\ShoppingTest\obj\Debug\net8.0\ref\ShoppingTest.dll
+C:\Users\VC\Desktop\training\day11\ShoppingSolution\ShoppingTest\bin\Debug\net8.0\ShoppingBLLibrary.dll
+C:\Users\VC\Desktop\training\day11\ShoppingSolution\ShoppingTest\bin\Debug\net8.0\ShoppingBLLibrary.pdb

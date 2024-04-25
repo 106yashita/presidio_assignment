@@ -26,5 +26,7 @@ namespace ShoppingModelLibrary
             Customer = customer;
             CartItems = cartItems;
         }
+
+        
     }
 }
