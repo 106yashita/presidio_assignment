@@ -123,5 +123,22 @@ namespace ShoppingBLLibrary
             }
             throw new NoCartWithGivenIdException();
         }
+
+
+        public double CalculateTotalPriceOfItemInCart(Cart cart)
+        {
+            if (cart.CartItems.Count <= 0)
+                throw new CartIsEmptyException();
+            double totalPrice = 0;
+            foreach (var cartItem in cart.CartItems)
+            {
+                Product product = _productService.GetProductById(cartItem.ProductId);
+                totalPrice += (cartItem.Quantity * product.Price);
+            }
+            totalPrice += CalculateShippingCharge(cart);
+            if (IsDiscountEligible(cart))
+                totalPrice = (0.95 * totalPrice);
+            return totalPrice;
+        }
     }
 }
