@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\VC\\Desktop\\training\\day14\\LeetcodeAssgn\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{72A6F24E-51B2-44F7-81D0-7CA57A00FF09}|LeetcodeAssgn\\LeetcodeAssgn.csproj|c:\\users\\vc\\desktop\\training\\day14\\leetcodeassgn\\leetcodeassgn\\mindepth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A6F24E-51B2-44F7-81D0-7CA57A00FF09}|LeetcodeAssgn\\LeetcodeAssgn.csproj|solutionrelative:leetcodeassgn\\mindepth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A6F24E-51B2-44F7-81D0-7CA57A00FF09}|LeetcodeAssgn\\LeetcodeAssgn.csproj|c:\\users\\vc\\desktop\\training\\day14\\leetcodeassgn\\leetcodeassgn\\detectcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A6F24E-51B2-44F7-81D0-7CA57A00FF09}|LeetcodeAssgn\\LeetcodeAssgn.csproj|solutionrelative:leetcodeassgn\\detectcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A6F24E-51B2-44F7-81D0-7CA57A00FF09}|LeetcodeAssgn\\LeetcodeAssgn.csproj|c:\\users\\vc\\desktop\\training\\day14\\leetcodeassgn\\leetcodeassgn\\excelcolumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A6F24E-51B2-44F7-81D0-7CA57A00FF09}|LeetcodeAssgn\\LeetcodeAssgn.csproj|solutionrelative:leetcodeassgn\\excelcolumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DetectCycle.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\training\\day14\\LeetcodeAssgn\\LeetcodeAssgn\\DetectCycle.cs",
+              "RelativeDocumentMoniker": "LeetcodeAssgn\\DetectCycle.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\training\\day14\\LeetcodeAssgn\\LeetcodeAssgn\\DetectCycle.cs",
+              "RelativeToolTip": "LeetcodeAssgn\\DetectCycle.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAwwBQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T09:35:06.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ExcelColumn.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\training\\day14\\LeetcodeAssgn\\LeetcodeAssgn\\ExcelColumn.cs",
+              "RelativeDocumentMoniker": "LeetcodeAssgn\\ExcelColumn.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\training\\day14\\LeetcodeAssgn\\LeetcodeAssgn\\ExcelColumn.cs",
+              "RelativeToolTip": "LeetcodeAssgn\\ExcelColumn.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T09:20:45.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MinDepth.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\training\\day14\\LeetcodeAssgn\\LeetcodeAssgn\\MinDepth.cs",
+              "RelativeDocumentMoniker": "LeetcodeAssgn\\MinDepth.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\training\\day14\\LeetcodeAssgn\\LeetcodeAssgn\\MinDepth.cs",
+              "RelativeToolTip": "LeetcodeAssgn\\MinDepth.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAADwvxEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T09:13:05.119Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

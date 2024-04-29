@@ -1,0 +1,15 @@
+C:\Users\VC\Desktop\training\day14\LeetcodeAssgn\LeetcodeAssgn\bin\Debug\net8.0\LeetcodeAssgn.exe
+C:\Users\VC\Desktop\training\day14\LeetcodeAssgn\LeetcodeAssgn\bin\Debug\net8.0\LeetcodeAssgn.deps.json
+C:\Users\VC\Desktop\training\day14\LeetcodeAssgn\LeetcodeAssgn\bin\Debug\net8.0\LeetcodeAssgn.runtimeconfig.json
+C:\Users\VC\Desktop\training\day14\LeetcodeAssgn\LeetcodeAssgn\bin\Debug\net8.0\LeetcodeAssgn.dll
+C:\Users\VC\Desktop\training\day14\LeetcodeAssgn\LeetcodeAssgn\bin\Debug\net8.0\LeetcodeAssgn.pdb
+C:\Users\VC\Desktop\training\day14\LeetcodeAssgn\LeetcodeAssgn\obj\Debug\net8.0\LeetcodeAssgn.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VC\Desktop\training\day14\LeetcodeAssgn\LeetcodeAssgn\obj\Debug\net8.0\LeetcodeAssgn.AssemblyInfoInputs.cache
+C:\Users\VC\Desktop\training\day14\LeetcodeAssgn\LeetcodeAssgn\obj\Debug\net8.0\LeetcodeAssgn.AssemblyInfo.cs
+C:\Users\VC\Desktop\training\day14\LeetcodeAssgn\LeetcodeAssgn\obj\Debug\net8.0\LeetcodeAssgn.csproj.CoreCompileInputs.cache
+C:\Users\VC\Desktop\training\day14\LeetcodeAssgn\LeetcodeAssgn\obj\Debug\net8.0\LeetcodeAssgn.sourcelink.json
+C:\Users\VC\Desktop\training\day14\LeetcodeAssgn\LeetcodeAssgn\obj\Debug\net8.0\LeetcodeAssgn.dll
+C:\Users\VC\Desktop\training\day14\LeetcodeAssgn\LeetcodeAssgn\obj\Debug\net8.0\refint\LeetcodeAssgn.dll
+C:\Users\VC\Desktop\training\day14\LeetcodeAssgn\LeetcodeAssgn\obj\Debug\net8.0\LeetcodeAssgn.pdb
+C:\Users\VC\Desktop\training\day14\LeetcodeAssgn\LeetcodeAssgn\obj\Debug\net8.0\LeetcodeAssgn.genruntimeconfig.cache
+C:\Users\VC\Desktop\training\day14\LeetcodeAssgn\LeetcodeAssgn\obj\Debug\net8.0\ref\LeetcodeAssgn.dll
