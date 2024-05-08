@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\VC\\Desktop\\training\\day6\\RequestTrackerSolution\\ModelClass\\ModelClassLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\VC\\Desktop\\training\\day7\\RequestTrackerSolution\\ModelClass\\ModelClassLibrary.csproj",
       "projectName": "ModelClassLibrary",
-      "projectPath": "C:\\Users\\VC\\Desktop\\training\\day6\\RequestTrackerSolution\\ModelClass\\ModelClassLibrary.csproj",
+      "projectPath": "C:\\Users\\VC\\Desktop\\training\\day7\\RequestTrackerSolution\\ModelClass\\ModelClassLibrary.csproj",
       "packagesPath": "C:\\Users\\VC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\VC\\Desktop\\training\\day6\\RequestTrackerSolution\\ModelClass\\obj\\",
+      "outputPath": "C:\\Users\\VC\\Desktop\\training\\day7\\RequestTrackerSolution\\ModelClass\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -82,8 +82,7 @@
               "RelativeToolTip": "ShoppingModelLibrary\\Exceptions\\CartIsEmptyException.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T06:43:28.014Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-26T06:43:28.014Z"
             },
             {
               "$type": "Document",
@@ -93,7 +92,7 @@
               "RelativeDocumentMoniker": "ShoppingFE\\Program.cs",
               "ToolTip": "C:\\Users\\VC\\Desktop\\training\\day11\\ShoppingSolution\\ShoppingFE\\Program.cs",
               "RelativeToolTip": "ShoppingFE\\Program.cs",
-              "ViewState": "AQIAAFoAAAAAAAAAAAAowFkAAAALAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowFkAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-26T04:36:46.902Z",
               "EditorCaption": ""
@@ -252,8 +251,7 @@
               "RelativeToolTip": "ShoppingModelLibrary\\Cart.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAxwBsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T09:49:18.368Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-24T09:49:18.368Z"
             }
           ]
         }

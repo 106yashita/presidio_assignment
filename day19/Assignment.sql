@@ -37,9 +37,10 @@ select fname as name from employee
 --print first 5 orders after sorting them based on the price of order
 
 select top 5 t.title as Booktitle, p.pub_name,CONCAT(a.au_fname,' ',a.au_lname) as Authorname,
-s.qty,t.price*s.qty as TotalPrice
+sum(s.qty),sum(t.price*s.qty) as TotalPrice
 from sales s join titles t on s.title_id=t.title_id
 join publishers p on t.pub_id=p.pub_id
 join titleauthor ta on t.title_id=ta.title_id
 join authors a on ta.au_id=a.au_id
-order by t.price
+group by t.title,p.pub_name,CONCAT(a.au_fname,' ',a.au_lname)
+order by TotalPrice desc

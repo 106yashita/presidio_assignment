@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{678EA3CB-01BE-4A56-94F0-F7D0CFE32A3B}|ConsoleApp\\ConsoleApp.csproj|solutionrelative:consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{41BA27B5-0462-49EB-B275-EFA300339D05}|RequestBLLibrary\\RequestBLLibrary.csproj|c:\\users\\vc\\desktop\\training\\day8\\requesttrackersolution\\requestbllibrary\\departmentbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41BA27B5-0462-49EB-B275-EFA300339D05}|RequestBLLibrary\\RequestBLLibrary.csproj|solutionrelative:requestbllibrary\\departmentbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{41BA27B5-0462-49EB-B275-EFA300339D05}|RequestBLLibrary\\RequestBLLibrary.csproj|c:\\users\\vc\\desktop\\training\\day8\\requesttrackersolution\\requestbllibrary\\employeebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41BA27B5-0462-49EB-B275-EFA300339D05}|RequestBLLibrary\\RequestBLLibrary.csproj|solutionrelative:requestbllibrary\\employeebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{EF1C475D-BD24-47E2-B6B7-7AD3A57E2721}|RequestModelClassLibrary\\RequestModelClassLibrary.csproj|c:\\users\\vc\\desktop\\training\\day8\\requesttrackersolution\\requestmodelclasslibrary\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF1C475D-BD24-47E2-B6B7-7AD3A57E2721}|RequestModelClassLibrary\\RequestModelClassLibrary.csproj|solutionrelative:requestmodelclasslibrary\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41BA27B5-0462-49EB-B275-EFA300339D05}|RequestBLLibrary\\RequestBLLibrary.csproj|c:\\users\\vc\\desktop\\training\\day8\\requesttrackersolution\\requestbllibrary\\departmentbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41BA27B5-0462-49EB-B275-EFA300339D05}|RequestBLLibrary\\RequestBLLibrary.csproj|solutionrelative:requestbllibrary\\departmentbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{41BA27B5-0462-49EB-B275-EFA300339D05}|RequestBLLibrary\\RequestBLLibrary.csproj|c:\\users\\vc\\desktop\\training\\day8\\requesttrackersolution\\requestbllibrary\\employeenotexistexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,34 +50,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "EmployeeBL.cs",
               "DocumentMoniker": "C:\\Users\\VC\\Desktop\\training\\day8\\RequestTrackerSolution\\RequestBLLibrary\\EmployeeBL.cs",
               "RelativeDocumentMoniker": "RequestBLLibrary\\EmployeeBL.cs",
               "ToolTip": "C:\\Users\\VC\\Desktop\\training\\day8\\RequestTrackerSolution\\RequestBLLibrary\\EmployeeBL.cs",
               "RelativeToolTip": "RequestBLLibrary\\EmployeeBL.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBsAAAA0AAAA",
+              "ViewState": "AQIAACMAAAAAAAAAAAAwwBsAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-19T09:13:13.255Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DepartmentNotExistException.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\training\\day8\\RequestTrackerSolution\\RequestBLLibrary\\DepartmentNotExistException.cs",
-              "RelativeDocumentMoniker": "RequestBLLibrary\\DepartmentNotExistException.cs",
-              "ToolTip": "C:\\Users\\VC\\Desktop\\training\\day8\\RequestTrackerSolution\\RequestBLLibrary\\DepartmentNotExistException.cs",
-              "RelativeToolTip": "RequestBLLibrary\\DepartmentNotExistException.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T13:24:31.79Z",
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -87,14 +73,14 @@
               "RelativeDocumentMoniker": "ConsoleApp\\Program.cs",
               "ToolTip": "C:\\Users\\VC\\Desktop\\training\\day8\\RequestTrackerSolution\\ConsoleApp\\Program.cs",
               "RelativeToolTip": "ConsoleApp\\Program.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAgwBgAAAAyAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwBgAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-19T13:26:40.983Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\Users\\VC\\Desktop\\training\\day8\\RequestTrackerSolution\\RequestModelClassLibrary\\Employee.cs",
               "RelativeDocumentMoniker": "RequestModelClassLibrary\\Employee.cs",
@@ -102,12 +88,11 @@
               "RelativeToolTip": "RequestModelClassLibrary\\Employee.cs",
               "ViewState": "AQIAACMAAAAAAAAAAAA6wCwAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T08:45:02.188Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-19T08:45:02.188Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "EmployeeRepository.cs",
               "DocumentMoniker": "C:\\Users\\VC\\Desktop\\training\\day8\\RequestTrackerSolution\\RequestDALLibrary\\EmployeeRepository.cs",
               "RelativeDocumentMoniker": "RequestDALLibrary\\EmployeeRepository.cs",
@@ -115,8 +100,7 @@
               "RelativeToolTip": "RequestDALLibrary\\EmployeeRepository.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAgwBsAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T09:11:36.917Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-19T09:11:36.917Z"
             },
             {
               "$type": "Document",
@@ -128,8 +112,32 @@
               "RelativeToolTip": "RequestBLLibrary\\EmployeeNotExistException.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T13:11:13.143Z",
+              "WhenOpened": "2024-04-19T13:11:13.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DepartmentBL.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\training\\day8\\RequestTrackerSolution\\RequestBLLibrary\\DepartmentBL.cs",
+              "RelativeDocumentMoniker": "RequestBLLibrary\\DepartmentBL.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\training\\day8\\RequestTrackerSolution\\RequestBLLibrary\\DepartmentBL.cs",
+              "RelativeToolTip": "RequestBLLibrary\\DepartmentBL.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAcwEEAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T11:38:52.881Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DepartmentNotExistException.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\training\\day8\\RequestTrackerSolution\\RequestBLLibrary\\DepartmentNotExistException.cs",
+              "RelativeDocumentMoniker": "RequestBLLibrary\\DepartmentNotExistException.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\training\\day8\\RequestTrackerSolution\\RequestBLLibrary\\DepartmentNotExistException.cs",
+              "RelativeToolTip": "RequestBLLibrary\\DepartmentNotExistException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T13:24:31.79Z"
             },
             {
               "$type": "Document",
@@ -141,21 +149,7 @@
               "RelativeToolTip": "RequestBLLibrary\\IEmployeeService.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T09:05:48.033Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DepartmentBL.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\training\\day8\\RequestTrackerSolution\\RequestBLLibrary\\DepartmentBL.cs",
-              "RelativeDocumentMoniker": "RequestBLLibrary\\DepartmentBL.cs",
-              "ToolTip": "C:\\Users\\VC\\Desktop\\training\\day8\\RequestTrackerSolution\\RequestBLLibrary\\DepartmentBL.cs",
-              "RelativeToolTip": "RequestBLLibrary\\DepartmentBL.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAADwv0EAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T11:38:52.881Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-19T09:05:48.033Z"
             },
             {
               "$type": "Document",
@@ -167,8 +161,7 @@
               "RelativeToolTip": "RequestBLLibrary\\IDepartmentService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T08:44:53.26Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-19T08:44:53.26Z"
             },
             {
               "$type": "Document",
@@ -180,8 +173,7 @@
               "RelativeToolTip": "RequestModelClassLibrary\\Department.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T08:31:44.176Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-19T08:31:44.176Z"
             }
           ]
         }
