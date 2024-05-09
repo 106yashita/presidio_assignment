@@ -1,0 +1,15 @@
+C:\Users\VC\Desktop\training\day21\RequestTrackerSolution\RequestTrackerModelLibrary\bin\Debug\net8.0\RequestTrackerModelLibrary.deps.json
+C:\Users\VC\Desktop\training\day21\RequestTrackerSolution\RequestTrackerModelLibrary\bin\Debug\net8.0\RequestTrackerModelLibrary.runtimeconfig.json
+C:\Users\VC\Desktop\training\day21\RequestTrackerSolution\RequestTrackerModelLibrary\bin\Debug\net8.0\RequestTrackerModelLibrary.dll
+C:\Users\VC\Desktop\training\day21\RequestTrackerSolution\RequestTrackerModelLibrary\bin\Debug\net8.0\RequestTrackerModelLibrary.pdb
+C:\Users\VC\Desktop\training\day21\RequestTrackerSolution\RequestTrackerModelLibrary\obj\Debug\net8.0\RequestTrackerModelLibrary.csproj.AssemblyReference.cache
+C:\Users\VC\Desktop\training\day21\RequestTrackerSolution\RequestTrackerModelLibrary\obj\Debug\net8.0\RequestTrackerModelLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VC\Desktop\training\day21\RequestTrackerSolution\RequestTrackerModelLibrary\obj\Debug\net8.0\RequestTrackerModelLibrary.AssemblyInfoInputs.cache
+C:\Users\VC\Desktop\training\day21\RequestTrackerSolution\RequestTrackerModelLibrary\obj\Debug\net8.0\RequestTrackerModelLibrary.AssemblyInfo.cs
+C:\Users\VC\Desktop\training\day21\RequestTrackerSolution\RequestTrackerModelLibrary\obj\Debug\net8.0\RequestTrackerModelLibrary.csproj.CoreCompileInputs.cache
+C:\Users\VC\Desktop\training\day21\RequestTrackerSolution\RequestTrackerModelLibrary\obj\Debug\net8.0\RequestTrackerModelLibrary.sourcelink.json
+C:\Users\VC\Desktop\training\day21\RequestTrackerSolution\RequestTrackerModelLibrary\obj\Debug\net8.0\RequestTrackerModelLibrary.dll
+C:\Users\VC\Desktop\training\day21\RequestTrackerSolution\RequestTrackerModelLibrary\obj\Debug\net8.0\refint\RequestTrackerModelLibrary.dll
+C:\Users\VC\Desktop\training\day21\RequestTrackerSolution\RequestTrackerModelLibrary\obj\Debug\net8.0\RequestTrackerModelLibrary.pdb
+C:\Users\VC\Desktop\training\day21\RequestTrackerSolution\RequestTrackerModelLibrary\obj\Debug\net8.0\RequestTrackerModelLibrary.genruntimeconfig.cache
+C:\Users\VC\Desktop\training\day21\RequestTrackerSolution\RequestTrackerModelLibrary\obj\Debug\net8.0\ref\RequestTrackerModelLibrary.dll
