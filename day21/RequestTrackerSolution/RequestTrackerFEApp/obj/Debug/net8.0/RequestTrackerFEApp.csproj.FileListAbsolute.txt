@@ -61,3 +61,5 @@ C:\Users\VC\Desktop\training\day21\RequestTrackerSolution\RequestTrackerFEApp\ob
 C:\Users\VC\Desktop\training\day21\RequestTrackerSolution\RequestTrackerFEApp\obj\Debug\net8.0\RequestTrackerFEApp.pdb
 C:\Users\VC\Desktop\training\day21\RequestTrackerSolution\RequestTrackerFEApp\obj\Debug\net8.0\RequestTrackerFEApp.genruntimeconfig.cache
 C:\Users\VC\Desktop\training\day21\RequestTrackerSolution\RequestTrackerFEApp\obj\Debug\net8.0\ref\RequestTrackerFEApp.dll
+C:\Users\VC\Desktop\training\day21\RequestTrackerSolution\RequestTrackerFEApp\bin\Debug\net8.0\Humanizer.dll
+C:\Users\VC\Desktop\training\day21\RequestTrackerSolution\RequestTrackerFEApp\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll

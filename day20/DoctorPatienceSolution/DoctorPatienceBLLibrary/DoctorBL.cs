@@ -1,4 +1,5 @@
 ﻿using DoctorPatientDALLibrary;
+using DoctorPatientDALLibrary.contexts;
 using ModelClassLibrary;
 using System;
 using System.Collections.Generic;
@@ -10,11 +11,11 @@ namespace DoctorPatientBLLibrary
 {
     public class DoctorBL : IDoctorSerivce
     {
-        readonly IRepository<int, Doctor> _doctorRepository;
-
-        public DoctorBL(IRepository<int, Doctor> doctorRepository)
+        private readonly IRepository<int, Doctor> _doctorRepository;
+        public DoctorBL()
         {
-            _doctorRepository = doctorRepository;
+            IRepository<int, Doctor> repo = new DoctorRepository(new DoctorPatientContext());
+            _doctorRepository = repo;
         }
 
         public int CreateDoctor(Doctor doctor)

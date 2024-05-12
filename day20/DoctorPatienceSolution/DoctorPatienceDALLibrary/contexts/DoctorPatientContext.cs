@@ -14,8 +14,8 @@ namespace DoctorPatientDALLibrary.contexts
         {
             optionsBuilder.UseSqlServer("Data Source=DB66JX3\\DEMOINSTANCE;Integrated Security=true;Initial Catalog=dbDoctorPatient;");
         }
-        public DbSet<Doctor> doctors { get; set; }
-        public DbSet<Patient> patients { get; set; }
-        public DbSet<Appointment> appointments { get; set; }
+        public DbSet<Doctor> Doctors { get; set; }
+        public DbSet<Patient> Patients { get; set; }
+        public DbSet<Appointment> Appointments { get; set; }
     }
 }

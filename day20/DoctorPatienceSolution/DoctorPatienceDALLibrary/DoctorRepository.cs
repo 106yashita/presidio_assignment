@@ -28,7 +28,7 @@ namespace DoctorPatientDALLibrary
             //}
             //_doctors.Add(GenerateId(), item);
             //return item;
-            _context.doctors.Add(item);
+            _context.Doctors.Add(item);
             _context.SaveChanges();
             return item;
         }
@@ -36,7 +36,7 @@ namespace DoctorPatientDALLibrary
         public Doctor Get(int key)
         {
             //return  _doctors[key] ?? null;
-            return _context.doctors.Find(key);
+            return _context.Doctors.Find(key);
         }
 
         public List<Doctor> GetAll()
@@ -44,7 +44,7 @@ namespace DoctorPatientDALLibrary
             //if (_doctors.Count == 0)
             //    return null;
             //return _doctors.Values.ToList();
-            return _context.doctors.ToList();
+            return _context.Doctors.ToList();
         }
 
         public Doctor Update(Doctor item)
@@ -55,7 +55,7 @@ namespace DoctorPatientDALLibrary
             //    return item;
             //}
             //return null;
-            _context.doctors.Update(item);
+            _context.Doctors.Update(item);
             _context.SaveChanges();
             return item;
         }  
@@ -69,10 +69,10 @@ namespace DoctorPatientDALLibrary
             //    return doctor;
             //}
             //return null;
-            var doctor = _context.doctors.Find(key);
+            var doctor = _context.Doctors.Find(key);
             if (doctor != null)
             {
-                _context.doctors.Remove(doctor);
+                _context.Doctors.Remove(doctor);
                 _context.SaveChanges();
             }
             return doctor;

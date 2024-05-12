@@ -38,6 +38,20 @@ namespace RequestTrackerModelLibrary
                .HasForeignKey(r => r.RequestClosedBy)
                .OnDelete(DeleteBehavior.Restrict);
 
+            modelBuilder.Entity<RequestSolution>()
+                .HasOne(rs => rs.RequestRaised)
+                .WithMany(r => r.RequestSolutions)
+                .HasForeignKey(rs => rs.RequestId)
+                .OnDelete(DeleteBehavior.Restrict)
+                .IsRequired();
+
+            modelBuilder.Entity<RequestSolution>()
+                .HasOne(rs => rs.SolvedByEmployee)
+                .WithMany(e => e.SolutionsProvided)
+                .HasForeignKey(rs => rs.SolvedBy)
+                .OnDelete(DeleteBehavior.Restrict)
+                .IsRequired();
+
         }
     }
 }
