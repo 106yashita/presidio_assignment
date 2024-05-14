@@ -244,19 +244,19 @@ namespace RequestTrackerFEAPP
                 Console.WriteLine("Invalid request ID. Please try again.");
                 return;
             }
-            Console.WriteLine("Enter the solution ID to add solutions:");
-            int solutionId;
-            if (!int.TryParse(Console.ReadLine(), out solutionId))
-            {
-                Console.WriteLine("Invalid request ID. Please try again.");
-                return;
-            }
+            //Console.WriteLine("Enter the solution ID to add solutions:");
+            //int solutionId;
+            //if (!int.TryParse(Console.ReadLine(), out solutionId))
+            //{
+            //    Console.WriteLine("Invalid request ID. Please try again.");
+            //    return;
+            //}
             Console.WriteLine("Enter the solution:");
             string solution= Console.ReadLine();
             var requestSolutionBL=new RequestSolutionBL();
             var requestSolution = new RequestSolution
             {
-                SolutionId = solutionId,
+                //SolutionId = solutionId,
                 RequestId = requestId,
                 SolutionDescription=solution,
                 SolvedBy=admin.Id,
@@ -284,7 +284,10 @@ namespace RequestTrackerFEAPP
                 RequestMessage = requestMessage,
                 RequestDate = DateTime.Now,
                 RequestStatus = "Open",
-                RequestRaisedBy = user.Id
+                RequestRaisedBy = user.Id,
+                RequestClosedBy = user.Id
+              
+
             };
 
 
@@ -331,8 +334,8 @@ namespace RequestTrackerFEAPP
                 return;
             }
 
-            IRequestBL requestService = new RequestBL();
-            var userSolutions = await requestService.ViewSolutions(requestId);
+            IRequestSolutionBL requestSolutionBL= new RequestSolutionBL();
+            var userSolutions = await requestSolutionBL.ViewSolution(requestId);
 
             if (userSolutions.Count > 0)
             {
@@ -403,6 +406,7 @@ namespace RequestTrackerFEAPP
 
         static async Task GiveFeedback(Employee user)
         {
+
             Console.WriteLine("Enter the solution ID to give feedback:");
             int solutionId;
             if (!int.TryParse(Console.ReadLine(), out solutionId))

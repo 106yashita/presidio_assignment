@@ -11,5 +11,6 @@ namespace RequestTrackerBLLibrary
     {
         Task<RequestSolution> ProvideSolution(RequestSolution solution);
         Task<bool> RespondToSolution(int requestId, string response);
+        Task<IList<RequestSolution>> ViewSolution(int requestId);
     }
 }

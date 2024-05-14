@@ -27,12 +27,11 @@ namespace RequestTrackerBLLibrary
         {
             ICollection<Request> requests;
 
-            // If the user is an admin, view all requests
             if (employee.Role == "Admin")
             {
                 requests = await _requestRepository.GetAll();
             }
-            else // For normal users, view only their requests
+            else 
             {
                 requests = await _requestRepository.GetAll();
                 requests = requests.Where(r => r.RequestRaisedBy == employee.Id).ToList();

@@ -42,5 +42,13 @@ namespace RequestTrackerBLLibrary
             await _solutionRepository.Update(requestSolution);
             return true;
         }
+
+        public async Task<IList<RequestSolution>> ViewSolution(int requestId)
+        {
+            var solutions = (await _solutionRepository.GetAll()).Where(e => e.RequestId == requestId).ToList();
+            if (solutions.Count == 0)
+                throw new NoSolutionExists();
+            return solutions;
+        }
     }
 }
