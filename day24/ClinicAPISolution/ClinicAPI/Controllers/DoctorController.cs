@@ -43,14 +43,14 @@ namespace ClinicAPI.Controllers
             }
             [Route("GetDoctorbySpeciality")]
             [HttpGet]
-            public async Task<ActionResult<IList<Doctor>>> GetBySpeciality(string speciality)
+            public async Task<ActionResult<IEnumerable<Doctor>>> GetBySpeciality(string speciality)
             {
                 try
                 {
                     var doctors = await _doctorService.GetDoctorsBySpeciality(speciality);
-                    return Ok(doctors.ToList());
+                    return Ok(doctors);
                 }
-                catch (NoSuchDoctorException nsde)
+                catch (NoDoctorFoundException nsde)
                 {
                     return NotFound(nsde.Message);
                 }

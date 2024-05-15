@@ -13,7 +13,7 @@ namespace ClinicAPI.services
             _repository = reposiroty;
         }
         public async Task<IEnumerable<Doctor>> GetDoctors()
-        {
+        { 
             var doctors = await _repository.Get();
             if (doctors.Count() == 0)
                 throw new NoDoctorFoundException();
