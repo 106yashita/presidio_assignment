@@ -1,6 +1,8 @@
-﻿using EmployeeRequestTrackerAPI.Exceptions;
+﻿
+using EmployeeRequestTrackerAPI.Exceptions;
 using EmployeeRequestTrackerAPI.Interfaces;
-using EmployeeRequestTrackerAPI.models;
+using EmployeeRequestTrackerAPI.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EmployeeRequestTrackerAPI.Controllers
@@ -15,11 +17,10 @@ namespace EmployeeRequestTrackerAPI.Controllers
         {
             _employeeService = employeeService;
         }
-
+        [HttpGet]
         [ProducesResponseType(typeof(IList<Employee>), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(ErrorModel), StatusCodes.Status404NotFound)]
         [ProducesErrorResponseType(typeof(ErrorModel))]
-        [HttpGet]
         public async Task<ActionResult<IList<Employee>>> Get()
         {
             try
@@ -59,5 +60,6 @@ namespace EmployeeRequestTrackerAPI.Controllers
                 return NotFound(nefe.Message);
             }
         }
+
     }
 }

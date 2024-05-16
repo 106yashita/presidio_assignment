@@ -1,11 +1,11 @@
-﻿using EmployeeRequestTrackerAPI.Interfaces;
-using EmployeeRequestTrackerAPI.models.DTOs;
-using EmployeeRequestTrackerAPI.models;
+﻿using EmployeeRequestTrackerAPI.Exceptions;
+using EmployeeRequestTrackerAPI.Interfaces;
+using EmployeeRequestTrackerAPI.Models;
+using EmployeeRequestTrackerAPI.Models.DTOs;
 using System.Security.Cryptography;
 using System.Text;
-using EmployeeRequestTrackerAPI.Exceptions;
 
-namespace EmployeeRequestTrackerAPI.services
+namespace EmployeeRequestTrackerAPI.Services
 {
     public class UserService : IUserService
     {
@@ -58,7 +58,7 @@ namespace EmployeeRequestTrackerAPI.services
                 employee = employeeDTO;
                 user = MapEmployeeUserDTOToUser(employeeDTO);
                 employee = await _employeeRepo.Add(employee);
-                user.EmployeeId = employee.Id;
+                user.EmployeeId=employee.Id;
                 user = await _userRepo.Add(user);
                 ((EmployeeUserDTO)employee).Password = string.Empty;
                 return employee;

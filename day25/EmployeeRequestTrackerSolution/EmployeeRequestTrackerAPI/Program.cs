@@ -1,9 +1,9 @@
 
 using EmployeeRequestTrackerAPI.Contexts;
 using EmployeeRequestTrackerAPI.Interfaces;
-using EmployeeRequestTrackerAPI.models;
+using EmployeeRequestTrackerAPI.Models;
 using EmployeeRequestTrackerAPI.Repositories;
-using EmployeeRequestTrackerAPI.services;
+using EmployeeRequestTrackerAPI.Services;
 using Microsoft.EntityFrameworkCore;
 
 namespace EmployeeRequestTrackerAPI

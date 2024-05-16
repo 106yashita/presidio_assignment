@@ -1,9 +1,7 @@
 ﻿using EmployeeRequestTrackerAPI.Interfaces;
-using EmployeeRequestTrackerAPI.models.DTOs;
-using EmployeeRequestTrackerAPI.models;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using EmployeeRequestTrackerAPI.services;
+using EmployeeRequestTrackerAPI.Models;
+using EmployeeRequestTrackerAPI.Models.DTOs;
 
 namespace EmployeeRequestTrackerAPI.Controllers
 {
@@ -37,8 +35,8 @@ namespace EmployeeRequestTrackerAPI.Controllers
         public async Task<ActionResult<Employee>> Register(EmployeeUserDTO userDTO)
         {
             try
-            {
-                Employee result = await _userService.Register(userDTO);
+            {   
+               Employee result = await _userService.Register(userDTO);
                 return Ok(result);
             }
             catch (Exception ex)

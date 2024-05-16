@@ -22,7 +22,7 @@ namespace EmployeeRequestTrackerAPI.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("EmployeeRequestTrackerAPI.models.Employee", b =>
+            modelBuilder.Entity("EmployeeRequestTrackerAPI.Models.Employee", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -68,7 +68,7 @@ namespace EmployeeRequestTrackerAPI.Migrations
                         });
                 });
 
-            modelBuilder.Entity("EmployeeRequestTrackerAPI.models.User", b =>
+            modelBuilder.Entity("EmployeeRequestTrackerAPI.Models.User", b =>
                 {
                     b.Property<int>("EmployeeId")
                         .HasColumnType("int");
@@ -90,9 +90,9 @@ namespace EmployeeRequestTrackerAPI.Migrations
                     b.ToTable("Users");
                 });
 
-            modelBuilder.Entity("EmployeeRequestTrackerAPI.models.User", b =>
+            modelBuilder.Entity("EmployeeRequestTrackerAPI.Models.User", b =>
                 {
-                    b.HasOne("EmployeeRequestTrackerAPI.models.Employee", "Employee")
+                    b.HasOne("EmployeeRequestTrackerAPI.Models.Employee", "Employee")
                         .WithMany()
                         .HasForeignKey("EmployeeId")
                         .OnDelete(DeleteBehavior.Cascade)

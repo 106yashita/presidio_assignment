@@ -1,6 +1,6 @@
-﻿using EmployeeRequestTrackerAPI.models.DTOs;
-using EmployeeRequestTrackerAPI.models;
-
+﻿
+using EmployeeRequestTrackerAPI.Models;
+using EmployeeRequestTrackerAPI.Models.DTOs;
 namespace EmployeeRequestTrackerAPI.Interfaces
 {
     public interface IUserService

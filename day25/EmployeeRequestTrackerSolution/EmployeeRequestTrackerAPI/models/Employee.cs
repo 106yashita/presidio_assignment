@@ -1,4 +1,7 @@
-﻿namespace EmployeeRequestTrackerAPI.models
+﻿
+using System.ComponentModel.DataAnnotations;
+
+namespace EmployeeRequestTrackerAPI.Models
 {
     public class Employee
     {
