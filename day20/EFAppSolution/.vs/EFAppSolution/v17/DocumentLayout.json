@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\VC\\Desktop\\training\\day20\\EFAppSolution\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7FA1D815-AEFA-424E-A952-4D2CB12A1776}|SampleEFApp\\SampleEFApp.csproj|c:\\users\\vc\\desktop\\training\\day20\\efappsolution\\sampleefapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FA1D815-AEFA-424E-A952-4D2CB12A1776}|SampleEFApp\\SampleEFApp.csproj|solutionrelative:sampleefapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7FA1D815-AEFA-424E-A952-4D2CB12A1776}|SampleEFApp\\SampleEFApp.csproj|c:\\users\\vc\\desktop\\training\\day20\\efappsolution\\sampleefapp\\model\\employeetrackerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7FA1D815-AEFA-424E-A952-4D2CB12A1776}|SampleEFApp\\SampleEFApp.csproj|solutionrelative:sampleefapp\\model\\employeetrackerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7FA1D815-AEFA-424E-A952-4D2CB12A1776}|SampleEFApp\\SampleEFApp.csproj|c:\\users\\vc\\desktop\\training\\day20\\efappsolution\\sampleefapp\\model\\employeeskill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7FA1D815-AEFA-424E-A952-4D2CB12A1776}|SampleEFApp\\SampleEFApp.csproj|solutionrelative:sampleefapp\\model\\employeeskill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FA1D815-AEFA-424E-A952-4D2CB12A1776}|SampleEFApp\\SampleEFApp.csproj|c:\\users\\vc\\desktop\\training\\day20\\efappsolution\\sampleefapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FA1D815-AEFA-424E-A952-4D2CB12A1776}|SampleEFApp\\SampleEFApp.csproj|solutionrelative:sampleefapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,11 +34,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Area.cs",
               "DocumentMoniker": "C:\\Users\\VC\\Desktop\\training\\day20\\EFAppSolution\\SampleEFApp\\Model\\Area.cs",
               "RelativeDocumentMoniker": "SampleEFApp\\Model\\Area.cs",
@@ -46,12 +46,11 @@
               "RelativeToolTip": "SampleEFApp\\Model\\Area.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T09:00:33.296Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-08T09:00:33.296Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\Users\\VC\\Desktop\\training\\day20\\EFAppSolution\\SampleEFApp\\Model\\Employee.cs",
               "RelativeDocumentMoniker": "SampleEFApp\\Model\\Employee.cs",
@@ -59,12 +58,11 @@
               "RelativeToolTip": "SampleEFApp\\Model\\Employee.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T09:00:31.041Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-08T09:00:31.041Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "EmployeeSkill.cs",
               "DocumentMoniker": "C:\\Users\\VC\\Desktop\\training\\day20\\EFAppSolution\\SampleEFApp\\Model\\EmployeeSkill.cs",
               "RelativeDocumentMoniker": "SampleEFApp\\Model\\EmployeeSkill.cs",
@@ -72,12 +70,11 @@
               "RelativeToolTip": "SampleEFApp\\Model\\EmployeeSkill.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T09:00:29.734Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-08T09:00:29.734Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Skill.cs",
               "DocumentMoniker": "C:\\Users\\VC\\Desktop\\training\\day20\\EFAppSolution\\SampleEFApp\\Model\\Skill.cs",
               "RelativeDocumentMoniker": "SampleEFApp\\Model\\Skill.cs",
@@ -85,31 +82,30 @@
               "RelativeToolTip": "SampleEFApp\\Model\\Skill.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T06:32:26.003Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-08T06:32:26.003Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "EmployeeTrackerdbContext.cs",
               "DocumentMoniker": "C:\\Users\\VC\\Desktop\\training\\day20\\EFAppSolution\\SampleEFApp\\Model\\EmployeeTrackerdbContext.cs",
               "RelativeDocumentMoniker": "SampleEFApp\\Model\\EmployeeTrackerdbContext.cs",
               "ToolTip": "C:\\Users\\VC\\Desktop\\training\\day20\\EFAppSolution\\SampleEFApp\\Model\\EmployeeTrackerdbContext.cs",
               "RelativeToolTip": "SampleEFApp\\Model\\EmployeeTrackerdbContext.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAgwAAAAAAAAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-08T06:25:13.799Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\VC\\Desktop\\training\\day20\\EFAppSolution\\SampleEFApp\\Program.cs",
               "RelativeDocumentMoniker": "SampleEFApp\\Program.cs",
               "ToolTip": "C:\\Users\\VC\\Desktop\\training\\day20\\EFAppSolution\\SampleEFApp\\Program.cs",
               "RelativeToolTip": "SampleEFApp\\Program.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAADwvxsAAAAJAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAiwB4AAACvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-08T05:38:07.351Z",
               "EditorCaption": ""

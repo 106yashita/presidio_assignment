@@ -1,0 +1,18 @@
+INFO  12:27:22 Now listening on: http://localhost:5154
+INFO  12:27:22 Application started. Press Ctrl+C to shut down.
+INFO  12:27:22 Hosting environment: Development
+INFO  12:27:22 Content root path: C:\Users\VC\Desktop\training\day26\EmployeeRequestTrackerSolution\EmployeeRequestTrackerAPI
+INFO  12:27:35 Entity Framework Core 6.0.29 initialized 'RequestTrackerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.29' with options: None
+INFO  12:27:36 Executed DbCommand (85ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [u].[EmployeeId], [u].[Password], [u].[PasswordHashKey], [u].[Status]
+FROM [Users] AS [u]
+WHERE [u].[EmployeeId] = @__key_0
+FATAL 12:27:37 user not authenticated
+INFO  11:46:59 Now listening on: http://localhost:5154
+INFO  11:46:59 Application started. Press Ctrl+C to shut down.
+INFO  11:46:59 Hosting environment: Development
+INFO  11:46:59 Content root path: C:\Users\VC\Desktop\training\day26\EmployeeRequestTrackerSolution\EmployeeRequestTrackerAPI
+INFO  04:45:39 Now listening on: http://localhost:5154
+INFO  04:45:39 Application started. Press Ctrl+C to shut down.
+INFO  04:45:39 Hosting environment: Development
+INFO  04:45:39 Content root path: C:\Users\VC\Desktop\training\day26\EmployeeRequestTrackerSolution\EmployeeRequestTrackerAPI

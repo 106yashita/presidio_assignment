@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\VC\\Desktop\\training\\day20\\EFCoreCodeFirstSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B3BC6CC7-391A-404F-976B-E9B88B1D5232}|EFCoreCodeFirstApp\\EFCoreCodeFirstApp.csproj|c:\\users\\vc\\desktop\\training\\day20\\efcorecodefirstsolution\\efcorecodefirstapp\\contexts\\pizzashopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3BC6CC7-391A-404F-976B-E9B88B1D5232}|EFCoreCodeFirstApp\\EFCoreCodeFirstApp.csproj|solutionrelative:efcorecodefirstapp\\contexts\\pizzashopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VC\\Desktop\\training\\day20\\EFCoreCodeFirstSolution\\EFCoreCodeFirstApp\\Migrations\\20240508073231_First.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EFCoreCodeFirstApp\\Migrations\\20240508073231_First.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B3BC6CC7-391A-404F-976B-E9B88B1D5232}|EFCoreCodeFirstApp\\EFCoreCodeFirstApp.csproj|c:\\users\\vc\\desktop\\training\\day20\\efcorecodefirstsolution\\efcorecodefirstapp\\migrations\\20240508073231_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3BC6CC7-391A-404F-976B-E9B88B1D5232}|EFCoreCodeFirstApp\\EFCoreCodeFirstApp.csproj|solutionrelative:efcorecodefirstapp\\migrations\\20240508073231_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B3BC6CC7-391A-404F-976B-E9B88B1D5232}|EFCoreCodeFirstApp\\EFCoreCodeFirstApp.csproj|c:\\users\\vc\\desktop\\training\\day20\\efcorecodefirstsolution\\efcorecodefirstapp\\models\\pizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,6 +13,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{B3BC6CC7-391A-404F-976B-E9B88B1D5232}|EFCoreCodeFirstApp\\EFCoreCodeFirstApp.csproj|c:\\users\\vc\\desktop\\training\\day20\\efcorecodefirstsolution\\efcorecodefirstapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3BC6CC7-391A-404F-976B-E9B88B1D5232}|EFCoreCodeFirstApp\\EFCoreCodeFirstApp.csproj|solutionrelative:efcorecodefirstapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3BC6CC7-391A-404F-976B-E9B88B1D5232}|EFCoreCodeFirstApp\\EFCoreCodeFirstApp.csproj|c:\\users\\vc\\desktop\\training\\day20\\efcorecodefirstsolution\\efcorecodefirstapp\\contexts\\pizzashopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3BC6CC7-391A-404F-976B-E9B88B1D5232}|EFCoreCodeFirstApp\\EFCoreCodeFirstApp.csproj|solutionrelative:efcorecodefirstapp\\contexts\\pizzashopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,56 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "20240508073231_First.cs",
               "DocumentMoniker": "C:\\Users\\VC\\Desktop\\training\\day20\\EFCoreCodeFirstSolution\\EFCoreCodeFirstApp\\Migrations\\20240508073231_First.cs",
               "RelativeDocumentMoniker": "EFCoreCodeFirstApp\\Migrations\\20240508073231_First.cs",
               "ToolTip": "C:\\Users\\VC\\Desktop\\training\\day20\\EFCoreCodeFirstSolution\\EFCoreCodeFirstApp\\Migrations\\20240508073231_First.cs",
               "RelativeToolTip": "EFCoreCodeFirstApp\\Migrations\\20240508073231_First.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-08T07:32:31.762Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "PizzaShopContext.cs",
               "DocumentMoniker": "C:\\Users\\VC\\Desktop\\training\\day20\\EFCoreCodeFirstSolution\\EFCoreCodeFirstApp\\Contexts\\PizzaShopContext.cs",
               "RelativeDocumentMoniker": "EFCoreCodeFirstApp\\Contexts\\PizzaShopContext.cs",
               "ToolTip": "C:\\Users\\VC\\Desktop\\training\\day20\\EFCoreCodeFirstSolution\\EFCoreCodeFirstApp\\Contexts\\PizzaShopContext.cs",
               "RelativeToolTip": "EFCoreCodeFirstApp\\Contexts\\PizzaShopContext.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwA8AAAAJAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-08T07:28:18.027Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Pizza.cs",
               "DocumentMoniker": "C:\\Users\\VC\\Desktop\\training\\day20\\EFCoreCodeFirstSolution\\EFCoreCodeFirstApp\\Models\\Pizza.cs",
               "RelativeDocumentMoniker": "EFCoreCodeFirstApp\\Models\\Pizza.cs",
               "ToolTip": "C:\\Users\\VC\\Desktop\\training\\day20\\EFCoreCodeFirstSolution\\EFCoreCodeFirstApp\\Models\\Pizza.cs",
               "RelativeToolTip": "EFCoreCodeFirstApp\\Models\\Pizza.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAA0wA0AAAAoAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-08T07:22:52.632Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\VC\\Desktop\\training\\day20\\EFCoreCodeFirstSolution\\EFCoreCodeFirstApp\\Program.cs",
               "RelativeDocumentMoniker": "EFCoreCodeFirstApp\\Program.cs",
               "ToolTip": "C:\\Users\\VC\\Desktop\\training\\day20\\EFCoreCodeFirstSolution\\EFCoreCodeFirstApp\\Program.cs",
               "RelativeToolTip": "EFCoreCodeFirstApp\\Program.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAxwAoAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-08T07:22:07.205Z",
               "EditorCaption": ""

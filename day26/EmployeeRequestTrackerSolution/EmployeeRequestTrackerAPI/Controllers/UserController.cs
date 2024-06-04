@@ -11,24 +11,32 @@ namespace EmployeeRequestTrackerAPI.Controllers
     public class UserController : ControllerBase
     {
         private readonly IUserService _userService;
-        public UserController(IUserService userService)
+        private readonly ILogger<UserController> _logger;
+
+        public UserController(IUserService userService, ILogger<UserController> logger)
         {
             _userService = userService;
+            _logger= logger;
         }
         [HttpPost("Login")]
         [ProducesResponseType(typeof(LoginReturnDTO), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(ErrorModel), StatusCodes.Status401Unauthorized)]
         public async Task<ActionResult<LoginReturnDTO>> Login(UserLoginDTO userLoginDTO)
         {
-            try
+            if (ModelState.IsValid)
             {
-                var result = await _userService.Login(userLoginDTO);
-                return Ok(result);
+                try
+                {
+                    var result = await _userService.Login(userLoginDTO);
+                    return Ok(result);
+                }
+                catch (Exception ex)
+                {
+                    _logger.LogCritical("User not authenticated");
+                    return Unauthorized(new ErrorModel(401, ex.Message));
+                }
             }
-            catch (Exception ex)
-            {
-                return Unauthorized(new ErrorModel(401, ex.Message));
-            }
+            return BadRequest("All details are not provided. Please check teh object");
         }
         [HttpPost("Register")]
         [ProducesResponseType(typeof(Employee), StatusCodes.Status200OK)]
