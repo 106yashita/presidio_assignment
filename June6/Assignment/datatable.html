@@ -7,25 +7,269 @@
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
   <style>
     /* Custom CSS */
-    .container {
-      margin-top: 20px;
-    }
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    display:none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100svh;
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: auto;
+    padding: 2em 0;
+    font-family: inter;
+}
+
+.table-container {
+    height: 100%;
+    width: min(70em, 90%);
+    overflow: hidden;
+}
+
+
+.table-wrapper {
+    height: 100%;
+    border: 2px solid #e7eaef;
+    border-radius: .5em;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background: #f7f9fd;
+}
+
+
+.table-header {
+    display: flex;
+    padding: .5em 1em;
+    background: #f7f9fd;
+    position: sticky;
+}
+
+.table-header .header-left {
+    flex: 1;
+    display: flex;
+}
+
+.filter-container {
+    display: flex;
+    gap: 1em;
+}
+
+.filter-icon {
+    display: flex;
+    padding: .5em 1em;
+    border: 1px solid #c3c7cd;
+    border-radius: .4em;
+    background: white;
+    cursor: pointer;
+}
+
+.filter-icon img {
+    width: .9em;
+
+}
+
+.filter-container .search-container {
+    display: flex;
+    gap: 1em;
+    border: 1px solid #c3c7cd;
+    padding: 0 1em;
+    border-radius: .4em;
+    background: white;
+}
+
+.filter-container .search-container img {
+    width: 1.2em;
+}
+
+.filter-container .search-input {
+    outline: none;
+    border: none;
+    width: 100%;
+}
+
+
+.header-right {
+    display: flex;
+}
+
+.add-cust-btn {
+    background: #2264E5;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    font-size: .9em;
+    gap: .5em;
+    padding: 0 1em;
+    border-radius: .4em;
+    cursor: pointer;
+}
+
+.table-content {
+    flex: 1;
+    position: relative;
+    overflow: auto;
+}
+
+
+.table-content table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: .875em;
+}
+
+.table-content thead {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid #E9EDF5;
+}
+
+.table-content thead th,
+.table-content tbody td {
+    padding: .8em;
+    text-align: start;
+}
+
+.table-content thead th {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    font-weight: 600;
+    color: #464F60;
+}
+
+.table-content tbody td {
+    color: #2E3B52;
+    font-size: .95em;
+}
+
+
+.table-content .desc {
+    max-width: 15em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
+
+.table-content tbody tr {
+    background: white;
+}
+
+.table-content tbody tr:nth-child(2n+1) {
+    background: #f7f9ff;
+}
+
+.table-content tbody td .name {
+    font-weight: 600;
+    color: #171C26;
+}
+
+.table-content tbody td .id {
+    color: #687182;
+    margin-top: 4px;
+}
+
+.table-content tbody td .primary-td {
+    color: #464F60;
+    margin-top: 4px;
+}
+
+.loss {
+    color: #D12953 !important;
+}
+
+.gain {
+    color: #14804A !important;
+}
+
+.table-content tbody td .secondary-td {
+    color: #687182;
+    margin-top: 4px;
+}
+
+.status-card {
+    padding: .3em .7em;
+    border-radius: 50em;
+}
+
+.status-card.open {
+    color: #4F5AED;
+    background: #F0F1FA;
+}
+
+.status-card.paid {
+    color: #14804A;
+    background: #E1FCEF;
+}
+
+.status-card.inactive {
+    color: #5A6376;
+    background: #E9EDF5;
+}
+
+.status-card.paid {
+    color: #14804A;
+    background: #E1FCEF;
+}
+
+.status-card.due {
+    color: #D12953;
+    background: #FAF0F3;
+}
+
+.table-content tbody tr:hover {
+    background: rgb(236, 236, 236);
+    cursor: default;
+}
+
+.table-content input[type=checkbox] {
+    cursor: pointer;
+    width: 1em;
+    scale: 1.2;
+}
   </style>
 </head>
 <body>
 
   <div class="container">
-    <div class="row mb-3">
-      <div class="col-md-6">
-        <input type="text" class="form-control" placeholder="Search">
+    <header class="table-header">
+      <div class="header-left">
+          <div class="filter-container">
+              <div class="filter-icon">
+                  <img src="filter-icon.svg" alt="">
+              </div>
+              <div class="search-container">
+                  <input placeholder="Search" type="text" class="search-input">
+              </div>
+          </div>
       </div>
-      <div class="col-md-6 text-right">
-        <button class="btn btn-primary">Add</button>
+      <div class="header-right">
+          <button class="add-cust-btn">
+              <span>Add customer</span>
+          </button>
       </div>
-    </div>
+  </header>
+  <div class="table-content">
     <table class="table">
       <thead>
         <tr>
+          <th><input type="checkbox" name="" id=""></th>
           <th scope="col">#</th>
           <th scope="col">Name</th>
           <th scope="col">Description</th>
@@ -37,98 +281,248 @@
       </thead>
       <tbody>
         <tr>
-          <th scope="row"><input type="checkbox"> 1</th>
-          <td>Name 1</td>
-          <td>Description 1</td>
-          <td>Open</td>
-          <td>$42</td>
-          <td>$321</td>
-          <td>$187</td>
+          <td><input type="checkbox" name="" id=""></td>
+          <td>1</td>
+          <td>
+            <div class="name">Name 1</div>
+            <div class="id">3487654</div>
+          </td>
+          <td clas="desc">Description 1</td>
+          <td>
+            <span class="status-card status-card open">Open</span>
+        </td>
+        <td>
+          <div class="primary-td">$70.00</div>
+          <div class="secondary-td">CAD</div>
+      </td>
+      <td>
+          <div class="primary-td loss">-$350.00</div>
+          <div class="secondary-td">CAD</div>
+      </td>
+      <td>
+          <div class="primary-td">$500.00</div>
+          <div class="secondary-td">CAD</div>
+      </td>
         </tr>
         <tr>
-          <th scope="row"><input type="checkbox"> 2</th>
-          <td>Name 2</td>
-          <td>Description 2</td>
-          <td>Paid</td>
-          <td>$65</td>
-          <td>$789</td>
-          <td>$234</td>
+          <td><input type="checkbox" name="" id=""></td>
+          <td>2</td>
+          <td>
+            <div class="name">Name 2</div>
+            <div class="id">3487654</div>
+          </td>
+          <td clas="desc">Description 2</td>
+          <td>
+            <span class="status-card paid">Paid</span>
+        </td>
+        <td>
+          <div class="primary-td">$70.00</div>
+          <div class="secondary-td">CAD</div>
+      </td>
+      <td>
+          <div class="primary-td gain">+$670.00</div>
+          <div class="secondary-td">CAD</div>
+      </td>
+      <td>
+          <div class="primary-td">$500.00</div>
+          <div class="secondary-td">CAD</div>
+      </td>
         </tr>
         <tr>
-          <th scope="row"><input type="checkbox"> 3</th>
-          <td>Name 3</td>
-          <td>Description 3</td>
-          <td>Inactive</td>
-          <td>$88</td>
-          <td>$154</td>
-          <td>$378</td>
+          <td><input type="checkbox" name="" id=""></td>
+          <td>3</td>
+          <td>
+            <div class="name">Name 3</div>
+            <div class="id">3487654</div>
+          </td>
+          <td clas="desc">Description 3</td>
+          <td>
+            <span class="status-card inactive">Inactive</span>
+        </td>
+        <td>
+          <div class="primary-td">$70.00</div>
+          <div class="secondary-td">CAD</div>
+      </td>
+      <td>
+          <div class="primary-td loss">-$20.00</div>
+          <div class="secondary-td">CAD</div>
+      </td>
+      <td>
+          <div class="primary-td">$500.00</div>
+          <div class="secondary-td">CAD</div>
+      </td>
         </tr>
         <tr>
-          <th scope="row"><input type="checkbox"> 4</th>
-          <td>Name 4</td>
-          <td>Description 4</td>
-          <td>Open</td>
-          <td>$21</td>
-          <td>$963</td>
-          <td>$102</td>
+          <td><input type="checkbox" name="" id=""></td>
+          <td>4</td>
+          <td>
+            <div class="name">Name 4</div>
+            <div class="id">3487654</div>
+          </td>
+          <td clas="desc">Description 4</td>
+          <td>
+            <span class="status-card status-card open">Open</span>
+        </td>
+        <td>
+          <div class="primary-td">$70.00</div>
+          <div class="secondary-td">CAD</div>
+      </td>
+      <td>
+          <div class="primary-td gain">$270.00</div>
+          <div class="secondary-td">CAD</div>
+      </td>
+      <td>
+          <div class="primary-td">$500.00</div>
+          <div class="secondary-td">CAD</div>
+      </td>
         </tr>
         <tr>
-          <th scope="row"><input type="checkbox"> 5</th>
-          <td>Name 5</td>
-          <td>Description 5</td>
-          <td>Paid</td>
-          <td>$77</td>
-          <td>$482</td>
-          <td>$291</td>
+          <td><input type="checkbox" name="" id=""></td>
+          <td>5</td>
+          <td>
+            <div class="name">Name 5</div>
+            <div class="id">3487654</div>
+          </td>
+          <td clas="desc">Description 5</td>
+          <td>
+            <span class="status-card paid">Paid</span>
+        </td>
+        <td>
+          <div class="primary-td">$70.00</div>
+          <div class="secondary-td">CAD</div>
+      </td>
+      <td>
+          <div class="primary-td loss">-$270.00</div>
+          <div class="secondary-td">CAD</div>
+      </td>
+      <td>
+          <div class="primary-td">$500.00</div>
+          <div class="secondary-td">CAD</div>
+      </td>
         </tr>
         <tr>
-          <th scope="row"><input type="checkbox"> 6</th>
-          <td>Name 6</td>
-          <td>Description 6</td>
-          <td>Inactive</td>
-          <td>$54</td>
-          <td>$825</td>
-          <td>$438</td>
+          <td><input type="checkbox" name="" id=""></td>
+          <td>6</td>
+          <td>
+            <div class="name">Name 6</div>
+            <div class="id">3487654</div>
+          </td>
+          <td clas="desc">Description 6</td>
+          <td>
+            <span class="status-card inactive">Inactive</span>
+        </td>
+        <td>
+          <div class="primary-td">$70.00</div>
+          <div class="secondary-td">CAD</div>
+      </td>
+      <td>
+          <div class="primary-td loss">-$350.00</div>
+          <div class="secondary-td">CAD</div>
+      </td>
+      <td>
+          <div class="primary-td">$500.00</div>
+          <div class="secondary-td">CAD</div>
+      </td>
         </tr>
         <tr>
-          <th scope="row"><input type="checkbox"> 7</th>
-          <td>Name 7</td>
-          <td>Description 7</td>
-          <td>Open</td>
-          <td>$91</td>
-          <td>$278</td>
-          <td>$159</td>
+          <td><input type="checkbox" name="" id=""></td>
+          <td>7</td>
+          <td>
+            <div class="name">Name 7</div>
+            <div class="id">3487654</div>
+          </td>
+          <td clas="desc">Description 7</td>
+          <td>
+            <span class="status-card status-card open">Open</span>
+        </td>
+        <td>
+          <div class="primary-td">$70.00</div>
+          <div class="secondary-td">CAD</div>
+      </td>
+      <td>
+          <div class="primary-td gain">+$670.00</div>
+          <div class="secondary-td">CAD</div>
+      </td>
+      <td>
+          <div class="primary-td">$500.00</div>
+          <div class="secondary-td">CAD</div>
+      </td>
         </tr>
         <tr>
-          <th scope="row"><input type="checkbox"> 8</th>
-          <td>Name 8</td>
-          <td>Description 8</td>
-          <td>Paid</td>
-          <td>$38</td>
-          <td>$617</td>
-          <td>$324</td>
+          <td><input type="checkbox" name="" id=""></td>
+          <td>8</td>
+          <td>
+            <div class="name">Name 8</div>
+            <div class="id">3487654</div>
+          </td>
+          <td clas="desc">Description 8</td>
+          <td>
+            <span class="status-card paid">Paid</span>
+        </td>
+        <td>
+          <div class="primary-td">$70.00</div>
+          <div class="secondary-td">CAD</div>
+      </td>
+      <td>
+          <div class="primary-td loss">-$20.00</div>
+          <div class="secondary-td">CAD</div>
+      </td>
+      <td>
+          <div class="primary-td">$500.00</div>
+          <div class="secondary-td">CAD</div>
+      </td>
         </tr>
         <tr>
-          <th scope="row"><input type="checkbox"> 9</th>
-          <td>Name 9</td>
-          <td>Description 9</td>
-          <td>Inactive</td>
-          <td>$62</td>
-          <td>$509</td>
-          <td>$213</td>
+          <td><input type="checkbox" name="" id=""></td>
+          <td>9</td>
+          <td>
+            <div class="name">Name 9</div>
+            <div class="id">3487654</div>
+          </td>
+          <td clas="desc">Description 9</td>
+          <td>
+            <span class="status-card inactive">Inactive</span>
+        </td>
+        <td>
+          <div class="primary-td">$70.00</div>
+          <div class="secondary-td">CAD</div>
+      </td>
+      <td>
+          <div class="primary-td gain">$270.00</div>
+          <div class="secondary-td">CAD</div>
+      </td>
+      <td>
+          <div class="primary-td">$500.00</div>
+          <div class="secondary-td">CAD</div>
+      </td>
         </tr>
         <tr>
-          <th scope="row"><input type="checkbox"> 10</th>
-          <td>Name 10</td>
-          <td>Description 10</td>
-          <td>Open</td>
-          <td>$10</td>
-          <td>$892</td>
-          <td>$471</td>
+          <td><input type="checkbox" name="" id=""></td>
+          <td>10</td>
+          <td>
+            <div class="name">Name 10</div>
+            <div class="id">3487654</div>
+          </td>
+          <td clas="desc">Description 10</td>
+          <td>
+            <span class="status-card status-card open">Open</span>
+        </td>
+        <td>
+          <div class="primary-td">$70.00</div>
+          <div class="secondary-td">CAD</div>
+      </td>
+      <td>
+          <div class="primary-td loss">-$270.00</div>
+          <div class="secondary-td">CAD</div>
+      </td>
+      <td>
+          <div class="primary-td">$500.00</div>
+          <div class="secondary-td">CAD</div>
+      </td>
         </tr>
     </tbody>
 </table>
+  </div>
 </div>
-
 </body>
 </html>    
