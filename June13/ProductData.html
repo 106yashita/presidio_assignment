@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Data</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .success input[type="text"] {
+            border: 2px solid green;
+        }
+    </style>
+    <script>
+        // function understandingRestOperator(){
+        //     let numbers = [1, 2, 3, 4, 5];
+        //     let sum = calculate('add', 30,45,78,90);
+        //     let product = calculate('multiply', 30,45,78,90);
+        //     console.log('Sum:', sum);
+        //     console.log('Product:', product);  
+        // }
+        // function calculate(operation, ...numbers){
+        //     let result = 0;
+        //     if(operation === 'add'){
+        //         for(let i = 0; i < numbers.length; i++){
+        //             result += numbers[i];
+        //         }
+        //     } 
+        //     else if(operation === 'multiply'){
+        //         result = 1;
+        //         for(let i = 0; i < numbers.length; i++){
+        //             result *= numbers[i];
+        //         }
+        //     } 
+        //     return result;
+        //     }
+        //     var underrstandingSpreadOperator=()=>{
+        //         // var scores = [23,78,90,45];
+        //         // var otherScores = [56,77,...scores];
+        //         // console.log('Scores:', otherScores);
+        //         // var cart1 = ['Apple', 'Banana', 'Orange'];
+        //         // var cart2 = ['Mango', 'Grapes', 'Pineapple'];
+        //         // var cart = [...cart1, ...cart2];
+        //         // console.log('Cart:', cart);
+        //         var product = {
+        //             id: 1,
+        //             name: 'Product 1',
+        //             price: 10.00,
+        //             quantity: 5
+        //         };
+        //         console.log('Product:', product);
+        //         var newProduct = {...product,quantity: 10};
+        //         //var newProduct = {quantity:10};
+        //         console.log('New Product:', newProduct);
+        //     }
+        function addProduct() {
+            var id = document.getElementById("id").value;
+            var name = document.getElementById("name").value;
+            var price = parseFloat(document.getElementById("price").value);
+            var quantity = parseInt(document.getElementById("quantity").value);
+
+            // Retrieve the form element
+            var form = document.getElementById("product-form");
+
+            // Check if any field is empty or if price/quantity is not a number
+            if (id === "" || name === "" || isNaN(price) || isNaN(quantity)) {
+                // Display error messages for each field
+                document.getElementById("id-error").textContent = id === "" ? "ID is required" : "";
+                document.getElementById("name-error").textContent = name === "" ? "Name is required" : "";
+                document.getElementById("price-error").textContent = isNaN(price) ? "Price must be a number" : "";
+                document.getElementById("quantity-error").textContent = isNaN(quantity) ? "Quantity must be a number" : "";
+                return; // Exit the function if any field is empty or price/quantity is not a number
+            }
+
+            // Additional validation: Check if name has more than 4 characters
+            if (name.length <= 4) {
+                document.getElementById("name-error").textContent = "Name must have more than 4 characters";
+                return; // Exit the function if name length is not greater than 4
+            }
+
+            // Additional validation: Check if price is greater than 0
+            if (price <= 0) {
+                document.getElementById("price-error").textContent = "Price must be greater than 0";
+                return; // Exit the function if price is not greater than 0
+            }
+
+            // Additional validation: Check if quantity is greater than 0
+            if (quantity <= 0) {
+                document.getElementById("quantity-error").textContent = "Quantity must be greater than 0";
+                return; // Exit the function if quantity is not greater than 0
+            }
+            var table = document.getElementById("product-table");
+            var row = table.insertRow(-1);
+            var cell1 = row.insertCell(0);
+            var cell2 = row.insertCell(1);
+            var cell3 = row.insertCell(2);
+            var cell4 = row.insertCell(3);
+            cell1.innerHTML = id;
+            cell2.innerHTML = name;
+            cell3.innerHTML = "$" + price;
+            cell4.innerHTML = quantity;
+
+            // Clear input fields after adding the product
+            document.getElementById("id").value = "";
+            document.getElementById("name").value = "";
+            document.getElementById("price").value = "";
+            document.getElementById("quantity").value = "";
+
+            document.getElementById("id-error").textContent = "";
+            document.getElementById("name-error").textContent = "";
+            document.getElementById("price-error").textContent = "";
+            document.getElementById("quantity-error").textContent = "";
+
+            form.classList.add("success");
+            alert("Product added successfully!");
+        }
+    </script>
+</head>
+<body>
+    <h1>Product Data</h1>
+    <div>
+        <h2>Add Product</h2>
+        <form id="product-form" onsubmit="event.preventDefault(); addProduct()">
+            <label for="id">ID:</label><br>
+            <input type="text" id="id" name="id">
+            <span id="id-error" class="error-message"></span><br>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name">
+            <span id="name-error" class="error-message"></span><br>
+            <label for="price">Price:</label><br>
+            <input type="text" id="price" name="price">
+            <span id="price-error" class="error-message"></span><br>
+            <label for="quantity">Quantity:</label><br>
+            <input type="text" id="quantity" name="quantity">
+            <span id="quantity-error" class="error-message"></span><br><br>
+            <input type="submit" value="Add Product">
+        </form>
+    </div>
+    <br>
+    <table id="product-table">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Quantity</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Product 1</td>
+            <td>$10.00</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Product 2</td>
+            <td>$15.00</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Product 3</td>
+            <td>$20.00</td>
+            <td>3</td>
+        </tr>
+    </table>
+</body>
+</html>
