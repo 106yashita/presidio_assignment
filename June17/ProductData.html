@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Details</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        .product-card {
+            margin-bottom: 20px;
+            background-color: rgb(143, 194, 177);
+        }
+        .product-card img {
+            height: 200px;
+            width: 150px;
+            object-fit: cover;
+            margin-left: 90px;
+        }
+    </style>
+    <script>
+        var clickButton = () => {
+            fetch('https://dummyjson.com/products', {
+                method: 'GET',
+            }).then(async (response) => {
+                var data = await response.json();
+                var divProducts = document.getElementById('divProducts');
+                var postData = "";
+                data.products.forEach(element => {
+                    postData += `
+                        <div class="col-md-4">
+                            <div class="card product-card">
+                                <img src="${element.thumbnail}" class="card-img-top" alt="${element.title}">
+                                <div class="card-body">
+                                    <h5 class="card-title">${element.title}</h5>
+                                    <p class="card-text">${element.description}</p>
+                                    <p class="card-text"><strong>Price:</strong> $${element.price}</p>
+                                    <p class="card-text"><strong>Rating:</strong> ${element.rating} ⭐</p>
+                                </div>
+                            </div>
+                        </div>`;
+                });
+                divProducts.innerHTML = `<div class="row">${postData}</div>`;
+            }).catch(error => {
+                console.error(error);
+            });
+        }
+    </script>
+</head>
+<body style="background-color: beige;">
+    <div class="container mt-5">
+        <h1>Product Details</h1>
+        <button class="btn btn-primary mb-4" onclick="clickButton()">Get Products</button>
+        <div id="divProducts" class="row">
+        </div>
+    </div>
+</body>
+</html>
