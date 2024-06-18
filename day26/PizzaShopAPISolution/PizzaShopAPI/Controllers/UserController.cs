@@ -4,11 +4,13 @@ using PizzaShopAPI.Interfaces;
 using PizzaShopAPI.models.DTOs;
 using PizzaShopAPI.models;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Cors;
 
 namespace PizzaShopAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [EnableCors("MyCors")]
     public class UserController : ControllerBase
     {
         private readonly IUserService _userService;

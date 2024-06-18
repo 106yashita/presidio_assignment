@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using PizzaShopAPI.Interfaces;
@@ -8,6 +9,7 @@ namespace PizzaShopAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [EnableCors("MyCors")]
     public class PizzaController : ControllerBase
     {
         private readonly IPizzaService _pizzaService;
@@ -16,7 +18,7 @@ namespace PizzaShopAPI.Controllers
             _pizzaService = pizzaService;
         }
 
-        [Authorize]
+        [Authorize(Roles = "user")]
         [HttpGet("Pizza")]
         [ProducesResponseType(typeof(Pizza), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(ErrorModel), StatusCodes.Status400BadRequest)]
